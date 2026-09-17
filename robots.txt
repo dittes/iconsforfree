@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://iconsforfree.com/sitemap.xml

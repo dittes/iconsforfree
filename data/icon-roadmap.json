@@ -1,0 +1,4074 @@
+{
+  "version": "1.0.0",
+  "researched_at": "2026-09-17",
+  "methodology": "Editorial coverage analysis of primary icon catalogues and design systems; priorities reflect reusable product workflows, not measured search volume. Category and concept coverage only; no external SVG paths copied. Some similar concepts intentionally require separate semantic review before production.",
+  "priority_key": {
+    "1": "Core interface and complete workflows",
+    "2": "Common industry and content use cases",
+    "3": "Specialist expansion"
+  },
+  "sources": [
+    {
+      "title": "Lucide catalogue",
+      "url": "https://lucide.dev/icons/"
+    },
+    {
+      "title": "Tabler customization",
+      "url": "https://tabler.io/icons"
+    },
+    {
+      "title": "Carbon taxonomy",
+      "url": "https://github.com/carbon-design-system/carbon/blob/main/packages/icons/categories.yml"
+    },
+    {
+      "title": "Phosphor design family",
+      "url": "https://github.com/phosphor-icons/core"
+    },
+    {
+      "title": "Material Symbols axes",
+      "url": "https://developers.google.com/fonts/docs/material_symbols"
+    }
+  ],
+  "categories": [
+    {
+      "slug": "essentials",
+      "name": "Essentials",
+      "priority": 1,
+      "rationale": "The controls needed to build a usable interface.",
+      "icons": [
+        {
+          "slug": "home",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable home pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "search",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable search pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "heart",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable heart pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "star",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable star pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "plus",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable plus pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "minus",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable minus pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "check",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "close",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable close pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "menu",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable menu pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "settings",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable settings pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bookmark",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable bookmark pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "grid",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable grid pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "filter",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable filter pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sort",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sort pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "more-horizontal",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable more horizontal pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "more-vertical",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable more vertical pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "list",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable list pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "undo",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable undo pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "redo",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable redo pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "save",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable save pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "link",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable link pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "unlink",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable unlink pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "expand",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable expand pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "collapse",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable collapse pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "maximize",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable maximize pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "minimize",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable minimize pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "drag-handle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable drag handle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "loading",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable loading pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "arrows",
+      "name": "Arrows",
+      "priority": 1,
+      "rationale": "Complete navigation families before niche objects.",
+      "icons": [
+        {
+          "slug": "arrow-right",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable arrow right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-left",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable arrow left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-up",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable arrow up pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-down",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable arrow down pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevron-right",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable chevron right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevron-down",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable chevron down pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevron-left",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chevron left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevron-up",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chevron up pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "external-link",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable external link pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "refresh",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable refresh pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-up-right",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow up right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-up-left",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow up left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-down-right",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow down right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-down-left",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow down left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-bend-right",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow bend right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-bend-left",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow bend left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-return",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow return pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-swap",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow swap pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrows-horizontal",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrows horizontal pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrows-vertical",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrows vertical pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevrons-right",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chevrons right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevrons-left",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chevrons left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevrons-up",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chevrons up pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chevrons-down",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chevrons down pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "communication",
+      "name": "Communication",
+      "priority": 1,
+      "rationale": "Messaging, contact, notifications, and conversation states.",
+      "icons": [
+        {
+          "slug": "mail",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable mail pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "message",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable message pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "send",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable send pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bell",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable bell pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "phone",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable phone pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "share",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable share pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "inbox",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable inbox pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mail-open",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mail open pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mail-unread",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mail unread pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mail-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mail check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mail-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mail add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mail-search",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mail search pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "message-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable message add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "message-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable message check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "message-dots",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable message dots pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "message-reply",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable message reply pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "message-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable message off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "phone-incoming",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable phone incoming pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "phone-outgoing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable phone outgoing pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "phone-missed",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable phone missed pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "phone-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable phone off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bell-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bell off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bell-ring",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bell ring pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "broadcast",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable broadcast pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "megaphone",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable megaphone pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "at-sign",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable at sign pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hashtag",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hashtag pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "files",
+      "name": "Files",
+      "priority": 1,
+      "rationale": "File management with consistent document and folder families.",
+      "icons": [
+        {
+          "slug": "file",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable file pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-text",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable file text pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "folder",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable folder pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "download",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable download pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "upload",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable upload pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "copy",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable copy pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "trash",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable trash pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "clipboard",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable clipboard pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-code",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file code pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-image",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file image pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-audio",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file audio pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-video",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file video pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-pdf",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file pdf pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-archive",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file archive pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-lock",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file lock pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "file-search",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable file search pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "folder-open",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable folder open pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "folder-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable folder add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "folder-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable folder check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "folder-lock",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable folder lock pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "folder-search",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable folder search pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "folder-download",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable folder download pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "attachment",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable attachment pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "archive-box",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable archive box pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "clipboard-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable clipboard check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "clipboard-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable clipboard add pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "people",
+      "name": "People",
+      "priority": 1,
+      "rationale": "Accounts, teams, relationships, and inclusive identity controls.",
+      "icons": [
+        {
+          "slug": "user",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable user pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "users",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable users pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-add",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable user add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "smile",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable smile pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable user check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-remove",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable user remove pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-edit",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable user edit pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-circle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable user circle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-search",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable user search pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-lock",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable user lock pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "user-settings",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable user settings pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "contact-card",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable contact card pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "address-book",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable address book pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "handshake",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable handshake pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "person-standing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable person standing pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "accessibility",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable accessibility pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wheelchair",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wheelchair pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hearing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hearing pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ear",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ear pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "eye-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable eye off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "language",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable language pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sign-language",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sign language pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "captions",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable captions pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "security",
+      "name": "Security",
+      "priority": 1,
+      "rationale": "Privacy, authentication, and trust signals.",
+      "icons": [
+        {
+          "slug": "lock",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable lock pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "unlock",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable unlock pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "shield",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable shield pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "key",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable key pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "eye",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable eye pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "shield-check",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable shield check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "shield-alert",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable shield alert pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "shield-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable shield off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fingerprint",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fingerprint pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "passkey",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable passkey pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "scan-face",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable scan face pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "two-factor",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable two factor pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "password",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable password pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "keyhole",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable keyhole pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lock-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable lock check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lock-open",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable lock open pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lock-alert",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable lock alert pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "incognito",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable incognito pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "privacy-policy",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable privacy policy pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "session",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable session pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "logout",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable logout pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "login",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable login pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "verified-badge",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable verified badge pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "name": "Design",
+      "priority": 1,
+      "rationale": "Core canvas, layout, and visual editing tools.",
+      "icons": [
+        {
+          "slug": "pencil",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable pencil pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "layers",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable layers pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "crop",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable crop pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "palette",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable palette pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "layout",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable layout pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cursor",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable cursor pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pen-tool",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pen tool pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "brush",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable brush pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "eraser",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable eraser pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ruler",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ruler pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "scissors",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable scissors pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "eyedropper",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable eyedropper pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "move",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable move pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rotate",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable rotate pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "flip-horizontal",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable flip horizontal pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "flip-vertical",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable flip vertical pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "align-left",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable align left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "align-center",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable align center pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "align-right",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable align right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "align-top",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable align top pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "align-bottom",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable align bottom pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "distribute-horizontal",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable distribute horizontal pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "distribute-vertical",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable distribute vertical pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "group",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable group pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ungroup",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ungroup pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "frame",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable frame pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "component",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable component pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "image-resize",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable image resize pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "media",
+      "name": "Media",
+      "priority": 1,
+      "rationale": "Everyday playback, image, and recording controls.",
+      "icons": [
+        {
+          "slug": "image",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable image pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "camera",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable camera pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "play",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable play pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pause",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable pause pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "volume",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable volume pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "music",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable music pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "microphone",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable microphone pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "headphones",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable headphones pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "stop",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable stop pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "skip-next",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable skip next pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "skip-previous",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable skip previous pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fast-forward",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fast forward pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rewind",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable rewind pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "repeat",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable repeat pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "shuffle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable shuffle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "volume-low",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable volume low pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "volume-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable volume off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "microphone-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable microphone off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "video",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable video pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "video-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable video off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "record",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable record pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fullscreen",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fullscreen pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "picture-in-picture",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable picture in picture pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "subtitles",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable subtitles pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "film",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable film pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "clapperboard",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable clapperboard pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "radio",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable radio pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "podcast",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable podcast pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "commerce",
+      "name": "Commerce",
+      "priority": 1,
+      "rationale": "A complete browse-to-checkout and fulfillment flow.",
+      "icons": [
+        {
+          "slug": "bag",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable bag pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cart",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable cart pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "credit-card",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable credit card pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tag",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable tag pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "gift",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable gift pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "package",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable package pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "store",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable store pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "basket",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable basket pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "receipt",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable receipt pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "coupon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable coupon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "barcode",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable barcode pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "qr-code",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable qr code pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "scan",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable scan pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wallet",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wallet pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "coins",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable coins pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "banknote",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable banknote pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "payment-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable payment check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cart-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cart add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cart-remove",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cart remove pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cart-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cart check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bag-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bag check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "discount",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable discount pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "delivery-truck",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable delivery truck pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "return-package",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable return package pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "price-tag",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable price tag pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "shopping-list",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable shopping list pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "time",
+      "name": "Time",
+      "priority": 1,
+      "rationale": "Scheduling, reminders, and time tracking.",
+      "icons": [
+        {
+          "slug": "calendar",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable calendar pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "clock",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable clock pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "alarm",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable alarm pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hourglass",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable hourglass pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "timer",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable timer pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "stopwatch",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable stopwatch pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-remove",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar remove pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-clock",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar clock pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-range",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar range pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-week",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar week pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-month",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar month pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-days",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar days pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calendar-search",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calendar search pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "history",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable history pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "repeat-event",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable repeat event pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "snooze",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable snooze pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "alarm-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable alarm off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sunrise-time",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sunrise time pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "timezone",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable timezone pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "weather",
+      "name": "Weather",
+      "priority": 2,
+      "rationale": "Weather conditions plus readable day/night pairs.",
+      "icons": [
+        {
+          "slug": "sun",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable sun pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "moon",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable moon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cloud",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable cloud pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rain",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable rain pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lightning",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable lightning pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wind",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable wind pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "snow",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable snow pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cloud-sun",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cloud sun pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cloud-moon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cloud moon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cloud-lightning",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cloud lightning pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "drizzle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable drizzle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hail",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hail pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fog",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fog pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tornado",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tornado pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hurricane",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hurricane pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "thermometer",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable thermometer pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "thermometer-hot",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable thermometer hot pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "thermometer-cold",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable thermometer cold pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "humidity",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable humidity pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "umbrella",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable umbrella pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sunrise",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sunrise pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sunset",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sunset pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rainbow",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable rainbow pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "snowflake",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable snowflake pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wind-direction",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wind direction pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "travel",
+      "name": "Travel",
+      "priority": 2,
+      "rationale": "Wayfinding, accommodation, and journeys.",
+      "icons": [
+        {
+          "slug": "map-pin",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable map pin pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "globe",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable globe pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "compass",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable compass pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "map",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable map pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "briefcase",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable briefcase pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "plane",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable plane pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "route",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable route pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "signpost",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable signpost pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "navigation-pointer",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable navigation pointer pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "location-crosshair",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable location crosshair pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "location-off",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable location off pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "suitcase",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable suitcase pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "backpack",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable backpack pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "passport",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable passport pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ticket",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ticket pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hotel",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hotel pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bed",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bed pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tent",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tent pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mountain",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mountain pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "beach",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable beach pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "luggage-cart",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable luggage cart pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "landmark",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable landmark pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "map-pin-add",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable map pin add pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "map-pin-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable map pin check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "map-pin-home",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable map pin home pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "technology",
+      "name": "Technology",
+      "priority": 1,
+      "rationale": "Devices, development, networking, and infrastructure.",
+      "icons": [
+        {
+          "slug": "monitor",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable monitor pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "smartphone",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable smartphone pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "code",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable code pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "terminal",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable terminal pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "database",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable database pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wifi",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable wifi pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "laptop",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable laptop pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tablet",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tablet pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "keyboard",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable keyboard pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mouse",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mouse pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "printer",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable printer pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "server",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable server pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cloud-upload",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cloud upload pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cloud-download",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cloud download pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bluetooth",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bluetooth pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "usb",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable usb pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cable",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cable pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "plug",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable plug pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "power",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable power pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "battery",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable battery pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "battery-low",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable battery low pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "battery-charging",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable battery charging pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "router",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable router pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "network",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable network pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cpu",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cpu pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "memory",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable memory pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hard-drive",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hard drive pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "git-branch",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable git branch pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "git-commit",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable git commit pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "git-merge",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable git merge pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bug",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bug pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "webhook",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable webhook pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "api",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable api pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "brackets",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable brackets pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "braces",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable braces pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "container",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable container pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "status",
+      "name": "Status",
+      "priority": 1,
+      "rationale": "Clear feedback that remains understandable without color.",
+      "icons": [
+        {
+          "slug": "info",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable info pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "warning",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable warning pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "check-circle",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable check circle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "help",
+          "status": "available",
+          "brief": "Draw a distinct, immediately recognizable help pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "error-circle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable error circle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "minus-circle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable minus circle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "plus-circle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable plus circle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ban",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ban pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "loading-ring",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable loading ring pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "notification-dot",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable notification dot pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "offline",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable offline pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "online",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable online pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sync-error",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sync error pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sync-complete",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sync complete pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "maintenance",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable maintenance pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "empty-state",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable empty state pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "broken-link",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable broken link pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "flag",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable flag pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "alert-octagon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable alert octagon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "check-double",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable check double pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "progress-circle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable progress circle pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "charts-data",
+      "name": "Charts & data",
+      "priority": 2,
+      "rationale": "Analytics interfaces and common data operations.",
+      "icons": [
+        {
+          "slug": "chart-bar",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart bar pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-line",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart line pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-pie",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart pie pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-donut",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart donut pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-area",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart area pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-scatter",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart scatter pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-radar",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart radar pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-candlestick",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart candlestick pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-stacked",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart stacked pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "trend-up",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable trend up pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "trend-down",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable trend down pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "table-data",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable table data pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pivot-table",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pivot table pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "filter-data",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable filter data pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sort-ascending",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sort ascending pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sort-descending",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sort descending pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "percentage",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable percentage pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sigma",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sigma pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calculator",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calculator pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "report",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable report pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "gauge",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable gauge pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "funnel-data",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable funnel data pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "compare-data",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable compare data pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "text-editing",
+      "name": "Text & editing",
+      "priority": 2,
+      "rationale": "A compact rich-text editor toolkit.",
+      "icons": [
+        {
+          "slug": "bold",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bold pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "italic",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable italic pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "underline",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable underline pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "strikethrough",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable strikethrough pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "heading",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable heading pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "paragraph",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable paragraph pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-align-left",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text align left pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-align-center",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text align center pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-align-right",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text align right pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-justify",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text justify pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "list-bullets",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable list bullets pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "list-numbered",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable list numbered pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "indent",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable indent pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "outdent",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable outdent pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "quote",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable quote pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "code-block",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable code block pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-color",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text color pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-size",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text size pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "superscript",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable superscript pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "subscript",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable subscript pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "spellcheck",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable spellcheck pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "translate",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable translate pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "link-text",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable link text pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "line-height",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable line height pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "letter-spacing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable letter spacing pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "nature-sustainability",
+      "name": "Nature & sustainability",
+      "priority": 2,
+      "rationale": "Environmental topics with clear, practical pictograms.",
+      "icons": [
+        {
+          "slug": "leaf",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable leaf pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tree",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tree pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "flower",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable flower pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sprout",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sprout pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "seedling",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable seedling pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "forest",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable forest pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cactus",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cactus pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "palm",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable palm pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mushroom",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mushroom pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "droplet",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable droplet pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "river",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable river pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ocean",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ocean pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "recycle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable recycle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "reuse",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable reuse pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "compost",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable compost pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "solar-panel",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable solar panel pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wind-turbine",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wind turbine pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "electric-car",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable electric car pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "earth-hand",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable earth hand pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "eco-bag",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable eco bag pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "battery-recycle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable battery recycle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "footprint",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable footprint pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "water-save",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable water save pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "food-drink",
+      "name": "Food & drink",
+      "priority": 2,
+      "rationale": "Restaurant, recipe, and grocery interfaces.",
+      "icons": [
+        {
+          "slug": "coffee",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable coffee pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tea",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tea pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "mug",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable mug pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "glass",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable glass pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wine",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wine pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "beer",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable beer pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bottle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bottle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fork-knife",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fork knife pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "spoon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable spoon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "plate",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable plate pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bowl",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bowl pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cooking-pot",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cooking pot pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "frying-pan",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable frying pan pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chef-hat",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chef hat pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "apple",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable apple pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "banana",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable banana pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "carrot",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable carrot pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bread",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bread pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "croissant",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable croissant pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cheese",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cheese pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "egg",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable egg pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fish-food",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fish food pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "meat",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable meat pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cake",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cake pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cookie",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cookie pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ice-cream",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ice cream pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pizza",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pizza pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "burger",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable burger pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "salad",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable salad pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "health-wellness",
+      "name": "Health & wellness",
+      "priority": 2,
+      "rationale": "General wellness and healthcare navigation, not clinical safety signage.",
+      "icons": [
+        {
+          "slug": "medical-cross",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable medical cross pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "first-aid",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable first aid pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "heart-pulse",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable heart pulse pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "stethoscope",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable stethoscope pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pill",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pill pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "capsule",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable capsule pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "syringe",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable syringe pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "thermometer-medical",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable thermometer medical pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bandage",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bandage pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hospital",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hospital pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ambulance",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ambulance pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wheelchair-medical",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wheelchair medical pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tooth",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tooth pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "brain",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable brain pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lungs",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable lungs pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bone",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bone pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "eye-care",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable eye care pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "microscope",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable microscope pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "test-tube",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable test tube pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "activity",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable activity pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "meditation",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable meditation pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sleep",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sleep pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fitness-tracker",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fitness tracker pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hand-wash",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hand wash pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "education",
+      "name": "Education",
+      "priority": 2,
+      "rationale": "Courses, study tools, and learning progress.",
+      "icons": [
+        {
+          "slug": "book",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable book pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "book-open",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable book open pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "books",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable books pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "graduation-cap",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable graduation cap pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "school",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable school pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pencil-case",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pencil case pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "notebook",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable notebook pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "certificate",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable certificate pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "diploma",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable diploma pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chalkboard",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chalkboard pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lesson",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable lesson pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "assignment",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable assignment pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "exam",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable exam pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "quiz",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable quiz pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "flashcards",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable flashcards pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "library",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable library pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bookmark-book",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bookmark book pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "student",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable student pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "teacher",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable teacher pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calculator-school",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calculator school pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "globe-school",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable globe school pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "abacus",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable abacus pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "language-book",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable language book pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "work-productivity",
+      "name": "Work & productivity",
+      "priority": 2,
+      "rationale": "Projects, collaboration, and everyday office workflows.",
+      "icons": [
+        {
+          "slug": "task",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable task pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "task-check",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable task check pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "checklist",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable checklist pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "kanban",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable kanban pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "project",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable project pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "milestone",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable milestone pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "target",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable target pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "goal",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable goal pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "presentation",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable presentation pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "meeting",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable meeting pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "video-meeting",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable video meeting pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "whiteboard",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable whiteboard pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sticky-note",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sticky note pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pin",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pin pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "paperclip",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable paperclip pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "inbox-tray",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable inbox tray pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "outbox-tray",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable outbox tray pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "workflow",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable workflow pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "organization-chart",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable organization chart pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "approval",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable approval pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "stamp",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable stamp pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "signature",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable signature pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "focus",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable focus pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "coffee-break",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable coffee break pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "transport",
+      "name": "Transport",
+      "priority": 2,
+      "rationale": "Mobility choices and travel infrastructure.",
+      "icons": [
+        {
+          "slug": "car",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable car pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bus",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bus pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "train",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable train pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tram",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tram pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "subway",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable subway pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bicycle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bicycle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "scooter",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable scooter pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "motorcycle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable motorcycle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "truck",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable truck pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "van",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable van pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "taxi",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable taxi pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "boat",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable boat pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ship",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ship pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sailboat",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sailboat pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "helicopter",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable helicopter pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "airplane-takeoff",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable airplane takeoff pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "airplane-landing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable airplane landing pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rocket",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable rocket pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "traffic-light",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable traffic light pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "parking",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable parking pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fuel",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fuel pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "charging-station",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable charging station pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "steering-wheel",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable steering wheel pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "road",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable road pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bridge",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bridge pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tunnel",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tunnel pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "home-buildings",
+      "name": "Home & buildings",
+      "priority": 3,
+      "rationale": "Property, rooms, furniture, and utilities.",
+      "icons": [
+        {
+          "slug": "building",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable building pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "house-key",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable house key pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "apartment",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable apartment pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "office",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable office pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "factory",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable factory pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "warehouse",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable warehouse pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "garage",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable garage pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "door",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable door pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "window",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable window pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "stairs",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable stairs pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "elevator",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable elevator pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sofa",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sofa pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "armchair",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable armchair pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "table",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable table pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "desk",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable desk pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lamp",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable lamp pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ceiling-light",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ceiling light pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bathtub",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bathtub pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "shower",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable shower pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "toilet",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable toilet pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "washing-machine",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable washing machine pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "refrigerator",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable refrigerator pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "oven",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable oven pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "dishwasher",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable dishwasher pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "air-conditioner",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable air conditioner pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "radiator",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable radiator pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "sports-outdoors",
+      "name": "Sports & outdoors",
+      "priority": 3,
+      "rationale": "Activity discovery and leisure booking.",
+      "icons": [
+        {
+          "slug": "running",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable running pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "walking",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable walking pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hiking",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hiking pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cycling",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cycling pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "swimming",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable swimming pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "yoga",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable yoga pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "dumbbell",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable dumbbell pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "kettlebell",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable kettlebell pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "football",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable football pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "basketball",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable basketball pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tennis",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tennis pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "golf",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable golf pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "baseball",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable baseball pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "volleyball",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable volleyball pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "badminton",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable badminton pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "trophy",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable trophy pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "medal",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable medal pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "podium",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable podium pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "stopwatch-sport",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable stopwatch sport pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "whistle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable whistle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "climbing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable climbing pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "skiing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable skiing pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "snowboard",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable snowboard pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "skateboard",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable skateboard pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fishing",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fishing pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "campfire",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable campfire pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "binoculars",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable binoculars pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "animals",
+      "name": "Animals",
+      "priority": 3,
+      "rationale": "A consistent set of recognizable animal silhouettes.",
+      "icons": [
+        {
+          "slug": "dog",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable dog pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cat",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cat pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bird",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bird pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rabbit",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable rabbit pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "horse",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable horse pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cow",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cow pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pig",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pig pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sheep",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sheep pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chicken",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chicken pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "duck",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable duck pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fish",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fish pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "turtle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable turtle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "butterfly",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable butterfly pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bee",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bee pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "beetle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable beetle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "spider",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable spider pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ant",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ant pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ladybug",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ladybug pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "snail",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable snail pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "frog",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable frog pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "whale",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable whale pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "dolphin",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable dolphin pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "octopus",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable octopus pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "crab",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable crab pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "elephant",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable elephant pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "lion",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable lion pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bear",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bear pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "fox",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable fox pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "owl",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable owl pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "paw",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable paw pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "science-tools",
+      "name": "Science & tools",
+      "priority": 3,
+      "rationale": "Lab, engineering, and making workflows.",
+      "icons": [
+        {
+          "slug": "atom",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable atom pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "flask",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable flask pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "beaker",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable beaker pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "test-tubes",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable test tubes pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "dna",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable dna pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "molecule",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable molecule pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "magnet",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable magnet pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "orbit",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable orbit pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "telescope",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable telescope pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "satellite",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable satellite pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "microscope-lab",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable microscope lab pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "circuit",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable circuit pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "robot",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable robot pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wrench",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wrench pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hammer",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hammer pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "screwdriver",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable screwdriver pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "drill",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable drill pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "saw",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable saw pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pliers",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pliers pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "nut",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable nut pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bolt",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bolt pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "gear",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable gear pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "caliper",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable caliper pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "measuring-tape",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable measuring tape pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "level",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable level pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "toolbox",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable toolbox pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "priority": 2,
+      "rationale": "Money movement, budgeting, and reporting.",
+      "icons": [
+        {
+          "slug": "bank",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bank pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wallet-money",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wallet money pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "bank-card",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable bank card pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cash",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cash pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "currency-dollar",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable currency dollar pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "currency-euro",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable currency euro pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "currency-pound",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable currency pound pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "currency-yen",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable currency yen pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "exchange",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable exchange pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "transfer-money",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable transfer money pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "invoice",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable invoice pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "tax",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable tax pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "budget",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable budget pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "savings",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable savings pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "piggy-bank",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable piggy bank pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "investment",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable investment pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chart-finance",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chart finance pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "interest",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable interest pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "loan",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable loan pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "insurance",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable insurance pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "calculator-finance",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable calculator finance pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "safe",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable safe pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "vault",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable vault pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cash-withdrawal",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cash withdrawal pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "shapes",
+      "name": "Shapes",
+      "priority": 3,
+      "rationale": "Neutral geometry for diagramming and building interfaces.",
+      "icons": [
+        {
+          "slug": "circle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable circle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "square",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable square pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "triangle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable triangle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "diamond",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable diamond pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hexagon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hexagon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pentagon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pentagon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "octagon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable octagon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "oval",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable oval pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rectangle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable rectangle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "rounded-square",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable rounded square pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "star-four",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable star four pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "star-six",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable star six pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "heart-shape",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable heart shape pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "polygon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable polygon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "line",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable line pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arc",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arc pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "arrow-shape",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable arrow shape pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cross",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cross pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "circle-dashed",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable circle dashed pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "square-dashed",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable square dashed pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cube",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cube pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sphere",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sphere pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "pyramid",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable pyramid pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cylinder",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cylinder pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "cone",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable cone pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "games-entertainment",
+      "name": "Games & entertainment",
+      "priority": 3,
+      "rationale": "Game discovery, play, and cultural activities.",
+      "icons": [
+        {
+          "slug": "gamepad",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable gamepad pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "joystick",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable joystick pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "dice",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable dice pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chess-pawn",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chess pawn pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "chess-knight",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable chess knight pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "puzzle",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable puzzle pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "playing-cards",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable playing cards pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "spade",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable spade pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "club",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable club pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "diamond-suit",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable diamond suit pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "heart-suit",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable heart suit pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "controller",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable controller pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "trophy-game",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable trophy game pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "ticket-event",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable ticket event pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "theater-masks",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable theater masks pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "microphone-stage",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable microphone stage pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "popcorn",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable popcorn pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "magic-wand",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable magic wand pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "balloon",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable balloon pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "confetti",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable confetti pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "party-hat",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable party hat pictogram using the Line 01 contract."
+        }
+      ]
+    },
+    {
+      "slug": "accessibility-inclusion",
+      "name": "Accessibility & inclusion",
+      "priority": 1,
+      "rationale": "Discoverable controls for accessible products, reviewed in context.",
+      "icons": [
+        {
+          "slug": "accessible-person",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable accessible person pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "wheelchair-access",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable wheelchair access pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "hearing-aid",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable hearing aid pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "closed-captions",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable closed captions pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "audio-description",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable audio description pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "braille",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable braille pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "sign-language-hands",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable sign language hands pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-large",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text large pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "contrast",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable contrast pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "focus-ring",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable focus ring pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "keyboard-navigation",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable keyboard navigation pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "screen-reader",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable screen reader pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "assistive-listening",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable assistive listening pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "reduce-motion",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable reduce motion pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "zoom-in",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable zoom in pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "zoom-out",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable zoom out pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "speech-to-text",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable speech to text pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "text-to-speech",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable text to speech pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "accessible-parking",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable accessible parking pictogram using the Line 01 contract."
+        },
+        {
+          "slug": "inclusive-group",
+          "status": "planned",
+          "brief": "Draw a distinct, immediately recognizable inclusive group pictogram using the Line 01 contract."
+        }
+      ]
+    }
+  ]
+}
