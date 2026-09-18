@@ -98,47 +98,47 @@
         },
         {
           "slug": "filter",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable filter pictogram using the Line 01 contract."
         },
         {
           "slug": "sort",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable sort pictogram using the Line 01 contract."
         },
         {
           "slug": "more-horizontal",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable more horizontal pictogram using the Line 01 contract."
         },
         {
           "slug": "more-vertical",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable more vertical pictogram using the Line 01 contract."
         },
         {
           "slug": "list",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable list pictogram using the Line 01 contract."
         },
         {
           "slug": "undo",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable undo pictogram using the Line 01 contract."
         },
         {
           "slug": "redo",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable redo pictogram using the Line 01 contract."
         },
         {
           "slug": "save",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable save pictogram using the Line 01 contract."
         },
         {
           "slug": "link",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable link pictogram using the Line 01 contract."
         },
         {
@@ -148,12 +148,12 @@
         },
         {
           "slug": "expand",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable expand pictogram using the Line 01 contract."
         },
         {
           "slug": "collapse",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable collapse pictogram using the Line 01 contract."
         },
         {
@@ -168,7 +168,7 @@
         },
         {
           "slug": "drag-handle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable drag handle pictogram using the Line 01 contract."
         },
         {
@@ -216,12 +216,12 @@
         },
         {
           "slug": "chevron-left",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chevron left pictogram using the Line 01 contract."
         },
         {
           "slug": "chevron-up",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chevron up pictogram using the Line 01 contract."
         },
         {
@@ -236,22 +236,22 @@
         },
         {
           "slug": "arrow-up-right",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrow up right pictogram using the Line 01 contract."
         },
         {
           "slug": "arrow-up-left",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrow up left pictogram using the Line 01 contract."
         },
         {
           "slug": "arrow-down-right",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrow down right pictogram using the Line 01 contract."
         },
         {
           "slug": "arrow-down-left",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrow down left pictogram using the Line 01 contract."
         },
         {
@@ -266,42 +266,42 @@
         },
         {
           "slug": "arrow-return",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrow return pictogram using the Line 01 contract."
         },
         {
           "slug": "arrow-swap",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrow swap pictogram using the Line 01 contract."
         },
         {
           "slug": "arrows-horizontal",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrows horizontal pictogram using the Line 01 contract."
         },
         {
           "slug": "arrows-vertical",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable arrows vertical pictogram using the Line 01 contract."
         },
         {
           "slug": "chevrons-right",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chevrons right pictogram using the Line 01 contract."
         },
         {
           "slug": "chevrons-left",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chevrons left pictogram using the Line 01 contract."
         },
         {
           "slug": "chevrons-up",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chevrons up pictogram using the Line 01 contract."
         },
         {
           "slug": "chevrons-down",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chevrons down pictogram using the Line 01 contract."
         }
       ]
@@ -344,12 +344,12 @@
         },
         {
           "slug": "inbox",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable inbox pictogram using the Line 01 contract."
         },
         {
           "slug": "mail-open",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable mail open pictogram using the Line 01 contract."
         },
         {
@@ -419,7 +419,7 @@
         },
         {
           "slug": "bell-off",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bell off pictogram using the Line 01 contract."
         },
         {
@@ -434,17 +434,17 @@
         },
         {
           "slug": "megaphone",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable megaphone pictogram using the Line 01 contract."
         },
         {
           "slug": "at-sign",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable at sign pictogram using the Line 01 contract."
         },
         {
           "slug": "hashtag",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable hashtag pictogram using the Line 01 contract."
         }
       ]
@@ -497,12 +497,12 @@
         },
         {
           "slug": "file-add",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable file add pictogram using the Line 01 contract."
         },
         {
           "slug": "file-check",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable file check pictogram using the Line 01 contract."
         },
         {
@@ -537,37 +537,37 @@
         },
         {
           "slug": "file-lock",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable file lock pictogram using the Line 01 contract."
         },
         {
           "slug": "file-search",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable file search pictogram using the Line 01 contract."
         },
         {
           "slug": "folder-open",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable folder open pictogram using the Line 01 contract."
         },
         {
           "slug": "folder-add",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable folder add pictogram using the Line 01 contract."
         },
         {
           "slug": "folder-check",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable folder check pictogram using the Line 01 contract."
         },
         {
           "slug": "folder-lock",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable folder lock pictogram using the Line 01 contract."
         },
         {
           "slug": "folder-search",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable folder search pictogram using the Line 01 contract."
         },
         {
@@ -577,17 +577,17 @@
         },
         {
           "slug": "attachment",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable attachment pictogram using the Line 01 contract."
         },
         {
           "slug": "archive-box",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable archive box pictogram using the Line 01 contract."
         },
         {
           "slug": "clipboard-check",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable clipboard check pictogram using the Line 01 contract."
         },
         {
@@ -625,12 +625,12 @@
         },
         {
           "slug": "user-check",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable user check pictogram using the Line 01 contract."
         },
         {
           "slug": "user-remove",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable user remove pictogram using the Line 01 contract."
         },
         {
@@ -640,7 +640,7 @@
         },
         {
           "slug": "user-circle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable user circle pictogram using the Line 01 contract."
         },
         {
@@ -660,7 +660,7 @@
         },
         {
           "slug": "contact-card",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable contact card pictogram using the Line 01 contract."
         },
         {
@@ -700,7 +700,7 @@
         },
         {
           "slug": "eye-off",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable eye off pictogram using the Line 01 contract."
         },
         {
@@ -828,12 +828,12 @@
         },
         {
           "slug": "logout",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable logout pictogram using the Line 01 contract."
         },
         {
           "slug": "login",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable login pictogram using the Line 01 contract."
         },
         {
@@ -896,12 +896,12 @@
         },
         {
           "slug": "ruler",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable ruler pictogram using the Line 01 contract."
         },
         {
           "slug": "scissors",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable scissors pictogram using the Line 01 contract."
         },
         {
@@ -931,17 +931,17 @@
         },
         {
           "slug": "align-left",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable align left pictogram using the Line 01 contract."
         },
         {
           "slug": "align-center",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable align center pictogram using the Line 01 contract."
         },
         {
           "slug": "align-right",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable align right pictogram using the Line 01 contract."
         },
         {
@@ -1039,47 +1039,47 @@
         },
         {
           "slug": "stop",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable stop pictogram using the Line 01 contract."
         },
         {
           "slug": "skip-next",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable skip next pictogram using the Line 01 contract."
         },
         {
           "slug": "skip-previous",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable skip previous pictogram using the Line 01 contract."
         },
         {
           "slug": "fast-forward",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable fast forward pictogram using the Line 01 contract."
         },
         {
           "slug": "rewind",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable rewind pictogram using the Line 01 contract."
         },
         {
           "slug": "repeat",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable repeat pictogram using the Line 01 contract."
         },
         {
           "slug": "shuffle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable shuffle pictogram using the Line 01 contract."
         },
         {
           "slug": "volume-low",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable volume low pictogram using the Line 01 contract."
         },
         {
           "slug": "volume-off",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable volume off pictogram using the Line 01 contract."
         },
         {
@@ -1089,7 +1089,7 @@
         },
         {
           "slug": "video",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable video pictogram using the Line 01 contract."
         },
         {
@@ -1099,7 +1099,7 @@
         },
         {
           "slug": "record",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable record pictogram using the Line 01 contract."
         },
         {
@@ -1114,12 +1114,12 @@
         },
         {
           "slug": "subtitles",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable subtitles pictogram using the Line 01 contract."
         },
         {
           "slug": "film",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable film pictogram using the Line 01 contract."
         },
         {
@@ -1177,67 +1177,67 @@
         },
         {
           "slug": "store",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable store pictogram using the Line 01 contract."
         },
         {
           "slug": "basket",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable basket pictogram using the Line 01 contract."
         },
         {
           "slug": "receipt",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable receipt pictogram using the Line 01 contract."
         },
         {
           "slug": "coupon",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable coupon pictogram using the Line 01 contract."
         },
         {
           "slug": "barcode",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable barcode pictogram using the Line 01 contract."
         },
         {
           "slug": "qr-code",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable qr code pictogram using the Line 01 contract."
         },
         {
           "slug": "scan",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable scan pictogram using the Line 01 contract."
         },
         {
           "slug": "wallet",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable wallet pictogram using the Line 01 contract."
         },
         {
           "slug": "coins",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable coins pictogram using the Line 01 contract."
         },
         {
           "slug": "banknote",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable banknote pictogram using the Line 01 contract."
         },
         {
           "slug": "payment-check",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable payment check pictogram using the Line 01 contract."
         },
         {
           "slug": "cart-add",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable cart add pictogram using the Line 01 contract."
         },
         {
           "slug": "cart-remove",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable cart remove pictogram using the Line 01 contract."
         },
         {
@@ -1247,22 +1247,22 @@
         },
         {
           "slug": "bag-check",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bag check pictogram using the Line 01 contract."
         },
         {
           "slug": "discount",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable discount pictogram using the Line 01 contract."
         },
         {
           "slug": "delivery-truck",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable delivery truck pictogram using the Line 01 contract."
         },
         {
           "slug": "return-package",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable return package pictogram using the Line 01 contract."
         },
         {
@@ -1272,7 +1272,7 @@
         },
         {
           "slug": "shopping-list",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable shopping list pictogram using the Line 01 contract."
         }
       ]
@@ -1305,7 +1305,7 @@
         },
         {
           "slug": "timer",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable timer pictogram using the Line 01 contract."
         },
         {
@@ -1315,12 +1315,12 @@
         },
         {
           "slug": "calendar-add",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable calendar add pictogram using the Line 01 contract."
         },
         {
           "slug": "calendar-check",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable calendar check pictogram using the Line 01 contract."
         },
         {
@@ -1360,7 +1360,7 @@
         },
         {
           "slug": "history",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable history pictogram using the Line 01 contract."
         },
         {
@@ -1473,7 +1473,7 @@
         },
         {
           "slug": "thermometer",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable thermometer pictogram using the Line 01 contract."
         },
         {
@@ -1493,17 +1493,17 @@
         },
         {
           "slug": "umbrella",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable umbrella pictogram using the Line 01 contract."
         },
         {
           "slug": "sunrise",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable sunrise pictogram using the Line 01 contract."
         },
         {
           "slug": "sunset",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable sunset pictogram using the Line 01 contract."
         },
         {
@@ -1513,7 +1513,7 @@
         },
         {
           "slug": "snowflake",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable snowflake pictogram using the Line 01 contract."
         },
         {
@@ -1621,7 +1621,7 @@
         },
         {
           "slug": "mountain",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable mountain pictogram using the Line 01 contract."
         },
         {
@@ -1694,32 +1694,32 @@
         },
         {
           "slug": "laptop",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable laptop pictogram using the Line 01 contract."
         },
         {
           "slug": "tablet",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable tablet pictogram using the Line 01 contract."
         },
         {
           "slug": "keyboard",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable keyboard pictogram using the Line 01 contract."
         },
         {
           "slug": "mouse",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable mouse pictogram using the Line 01 contract."
         },
         {
           "slug": "printer",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable printer pictogram using the Line 01 contract."
         },
         {
           "slug": "server",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable server pictogram using the Line 01 contract."
         },
         {
@@ -1734,7 +1734,7 @@
         },
         {
           "slug": "bluetooth",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bluetooth pictogram using the Line 01 contract."
         },
         {
@@ -1754,22 +1754,22 @@
         },
         {
           "slug": "power",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable power pictogram using the Line 01 contract."
         },
         {
           "slug": "battery",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable battery pictogram using the Line 01 contract."
         },
         {
           "slug": "battery-low",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable battery low pictogram using the Line 01 contract."
         },
         {
           "slug": "battery-charging",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable battery charging pictogram using the Line 01 contract."
         },
         {
@@ -1799,12 +1799,12 @@
         },
         {
           "slug": "git-branch",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable git branch pictogram using the Line 01 contract."
         },
         {
           "slug": "git-commit",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable git commit pictogram using the Line 01 contract."
         },
         {
@@ -1829,7 +1829,7 @@
         },
         {
           "slug": "brackets",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable brackets pictogram using the Line 01 contract."
         },
         {
@@ -1872,27 +1872,27 @@
         },
         {
           "slug": "error-circle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable error circle pictogram using the Line 01 contract."
         },
         {
           "slug": "minus-circle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable minus circle pictogram using the Line 01 contract."
         },
         {
           "slug": "plus-circle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable plus circle pictogram using the Line 01 contract."
         },
         {
           "slug": "ban",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable ban pictogram using the Line 01 contract."
         },
         {
           "slug": "loading-ring",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable loading ring pictogram using the Line 01 contract."
         },
         {
@@ -1937,7 +1937,7 @@
         },
         {
           "slug": "flag",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable flag pictogram using the Line 01 contract."
         },
         {
@@ -1947,7 +1947,7 @@
         },
         {
           "slug": "check-double",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable check double pictogram using the Line 01 contract."
         },
         {
@@ -1965,22 +1965,22 @@
       "icons": [
         {
           "slug": "chart-bar",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chart bar pictogram using the Line 01 contract."
         },
         {
           "slug": "chart-line",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chart line pictogram using the Line 01 contract."
         },
         {
           "slug": "chart-pie",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chart pie pictogram using the Line 01 contract."
         },
         {
           "slug": "chart-donut",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable chart donut pictogram using the Line 01 contract."
         },
         {
@@ -2010,17 +2010,17 @@
         },
         {
           "slug": "trend-up",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable trend up pictogram using the Line 01 contract."
         },
         {
           "slug": "trend-down",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable trend down pictogram using the Line 01 contract."
         },
         {
           "slug": "table-data",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable table data pictogram using the Line 01 contract."
         },
         {
@@ -2045,7 +2045,7 @@
         },
         {
           "slug": "percentage",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable percentage pictogram using the Line 01 contract."
         },
         {
@@ -2055,7 +2055,7 @@
         },
         {
           "slug": "calculator",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable calculator pictogram using the Line 01 contract."
         },
         {
@@ -2065,7 +2065,7 @@
         },
         {
           "slug": "gauge",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable gauge pictogram using the Line 01 contract."
         },
         {
@@ -2088,17 +2088,17 @@
       "icons": [
         {
           "slug": "bold",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bold pictogram using the Line 01 contract."
         },
         {
           "slug": "italic",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable italic pictogram using the Line 01 contract."
         },
         {
           "slug": "underline",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable underline pictogram using the Line 01 contract."
         },
         {
@@ -2123,22 +2123,22 @@
         },
         {
           "slug": "text-align-left",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable text align left pictogram using the Line 01 contract."
         },
         {
           "slug": "text-align-center",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable text align center pictogram using the Line 01 contract."
         },
         {
           "slug": "text-align-right",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable text align right pictogram using the Line 01 contract."
         },
         {
           "slug": "text-justify",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable text justify pictogram using the Line 01 contract."
         },
         {
@@ -2163,7 +2163,7 @@
         },
         {
           "slug": "quote",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable quote pictogram using the Line 01 contract."
         },
         {
@@ -2226,22 +2226,22 @@
       "icons": [
         {
           "slug": "leaf",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable leaf pictogram using the Line 01 contract."
         },
         {
           "slug": "tree",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable tree pictogram using the Line 01 contract."
         },
         {
           "slug": "flower",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable flower pictogram using the Line 01 contract."
         },
         {
           "slug": "sprout",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable sprout pictogram using the Line 01 contract."
         },
         {
@@ -2271,7 +2271,7 @@
         },
         {
           "slug": "droplet",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable droplet pictogram using the Line 01 contract."
         },
         {
@@ -2349,7 +2349,7 @@
       "icons": [
         {
           "slug": "coffee",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable coffee pictogram using the Line 01 contract."
         },
         {
@@ -2359,17 +2359,17 @@
         },
         {
           "slug": "mug",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable mug pictogram using the Line 01 contract."
         },
         {
           "slug": "glass",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable glass pictogram using the Line 01 contract."
         },
         {
           "slug": "wine",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable wine pictogram using the Line 01 contract."
         },
         {
@@ -2384,7 +2384,7 @@
         },
         {
           "slug": "fork-knife",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable fork knife pictogram using the Line 01 contract."
         },
         {
@@ -2419,7 +2419,7 @@
         },
         {
           "slug": "apple",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable apple pictogram using the Line 01 contract."
         },
         {
@@ -2429,12 +2429,12 @@
         },
         {
           "slug": "carrot",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable carrot pictogram using the Line 01 contract."
         },
         {
           "slug": "bread",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bread pictogram using the Line 01 contract."
         },
         {
@@ -2449,7 +2449,7 @@
         },
         {
           "slug": "egg",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable egg pictogram using the Line 01 contract."
         },
         {
@@ -2474,7 +2474,7 @@
         },
         {
           "slug": "ice-cream",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable ice cream pictogram using the Line 01 contract."
         },
         {
@@ -2502,17 +2502,17 @@
       "icons": [
         {
           "slug": "medical-cross",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable medical cross pictogram using the Line 01 contract."
         },
         {
           "slug": "first-aid",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable first aid pictogram using the Line 01 contract."
         },
         {
           "slug": "heart-pulse",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable heart pulse pictogram using the Line 01 contract."
         },
         {
@@ -2522,7 +2522,7 @@
         },
         {
           "slug": "pill",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable pill pictogram using the Line 01 contract."
         },
         {
@@ -2542,12 +2542,12 @@
         },
         {
           "slug": "bandage",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bandage pictogram using the Line 01 contract."
         },
         {
           "slug": "hospital",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable hospital pictogram using the Line 01 contract."
         },
         {
@@ -2562,7 +2562,7 @@
         },
         {
           "slug": "tooth",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable tooth pictogram using the Line 01 contract."
         },
         {
@@ -2577,7 +2577,7 @@
         },
         {
           "slug": "bone",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bone pictogram using the Line 01 contract."
         },
         {
@@ -2597,7 +2597,7 @@
         },
         {
           "slug": "activity",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable activity pictogram using the Line 01 contract."
         },
         {
@@ -2630,12 +2630,12 @@
       "icons": [
         {
           "slug": "book",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable book pictogram using the Line 01 contract."
         },
         {
           "slug": "book-open",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable book open pictogram using the Line 01 contract."
         },
         {
@@ -2645,7 +2645,7 @@
         },
         {
           "slug": "graduation-cap",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable graduation cap pictogram using the Line 01 contract."
         },
         {
@@ -2660,12 +2660,12 @@
         },
         {
           "slug": "notebook",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable notebook pictogram using the Line 01 contract."
         },
         {
           "slug": "certificate",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable certificate pictogram using the Line 01 contract."
         },
         {
@@ -2753,7 +2753,7 @@
       "icons": [
         {
           "slug": "task",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable task pictogram using the Line 01 contract."
         },
         {
@@ -2763,12 +2763,12 @@
         },
         {
           "slug": "checklist",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable checklist pictogram using the Line 01 contract."
         },
         {
           "slug": "kanban",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable kanban pictogram using the Line 01 contract."
         },
         {
@@ -2783,7 +2783,7 @@
         },
         {
           "slug": "target",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable target pictogram using the Line 01 contract."
         },
         {
@@ -2793,7 +2793,7 @@
         },
         {
           "slug": "presentation",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable presentation pictogram using the Line 01 contract."
         },
         {
@@ -2813,17 +2813,17 @@
         },
         {
           "slug": "sticky-note",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable sticky note pictogram using the Line 01 contract."
         },
         {
           "slug": "pin",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable pin pictogram using the Line 01 contract."
         },
         {
           "slug": "paperclip",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable paperclip pictogram using the Line 01 contract."
         },
         {
@@ -2881,17 +2881,17 @@
       "icons": [
         {
           "slug": "car",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable car pictogram using the Line 01 contract."
         },
         {
           "slug": "bus",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bus pictogram using the Line 01 contract."
         },
         {
           "slug": "train",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable train pictogram using the Line 01 contract."
         },
         {
@@ -2906,7 +2906,7 @@
         },
         {
           "slug": "bicycle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bicycle pictogram using the Line 01 contract."
         },
         {
@@ -2936,7 +2936,7 @@
         },
         {
           "slug": "boat",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable boat pictogram using the Line 01 contract."
         },
         {
@@ -2946,7 +2946,7 @@
         },
         {
           "slug": "sailboat",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable sailboat pictogram using the Line 01 contract."
         },
         {
@@ -2971,17 +2971,17 @@
         },
         {
           "slug": "traffic-light",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable traffic light pictogram using the Line 01 contract."
         },
         {
           "slug": "parking",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable parking pictogram using the Line 01 contract."
         },
         {
           "slug": "fuel",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable fuel pictogram using the Line 01 contract."
         },
         {
@@ -2996,7 +2996,7 @@
         },
         {
           "slug": "road",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable road pictogram using the Line 01 contract."
         },
         {
@@ -3596,7 +3596,7 @@
       "icons": [
         {
           "slug": "bank",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable bank pictogram using the Line 01 contract."
         },
         {
@@ -3616,12 +3616,12 @@
         },
         {
           "slug": "currency-dollar",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable currency dollar pictogram using the Line 01 contract."
         },
         {
           "slug": "currency-euro",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable currency euro pictogram using the Line 01 contract."
         },
         {
@@ -3651,7 +3651,7 @@
         },
         {
           "slug": "tax",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable tax pictogram using the Line 01 contract."
         },
         {
@@ -3666,7 +3666,7 @@
         },
         {
           "slug": "piggy-bank",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable piggy bank pictogram using the Line 01 contract."
         },
         {
@@ -3701,7 +3701,7 @@
         },
         {
           "slug": "safe",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable safe pictogram using the Line 01 contract."
         },
         {
@@ -3724,32 +3724,32 @@
       "icons": [
         {
           "slug": "circle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable circle pictogram using the Line 01 contract."
         },
         {
           "slug": "square",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable square pictogram using the Line 01 contract."
         },
         {
           "slug": "triangle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable triangle pictogram using the Line 01 contract."
         },
         {
           "slug": "diamond",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable diamond pictogram using the Line 01 contract."
         },
         {
           "slug": "hexagon",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable hexagon pictogram using the Line 01 contract."
         },
         {
           "slug": "pentagon",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable pentagon pictogram using the Line 01 contract."
         },
         {
@@ -3759,12 +3759,12 @@
         },
         {
           "slug": "oval",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable oval pictogram using the Line 01 contract."
         },
         {
           "slug": "rectangle",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable rectangle pictogram using the Line 01 contract."
         },
         {
@@ -3824,7 +3824,7 @@
         },
         {
           "slug": "cube",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable cube pictogram using the Line 01 contract."
         },
         {
@@ -3839,7 +3839,7 @@
         },
         {
           "slug": "cylinder",
-          "status": "planned",
+          "status": "available",
           "brief": "Draw a distinct, immediately recognizable cylinder pictogram using the Line 01 contract."
         },
         {

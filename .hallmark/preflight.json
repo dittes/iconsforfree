@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-17",
+  "existing_files": [
+    "README.md",
+    "CNAME"
+  ],
+  "framework": "vanilla HTML/CSS/JavaScript",
+  "fonts": null,
+  "palette": null,
+  "motion": "none",
+  "spacing": null,
+  "preserved": [
+    "CNAME"
+  ],
+  "introduced": [
+    "tokens",
+    "catalogue",
+    "static detail pages"
+  ]
+}

@@ -25,7 +25,7 @@ The implemented product is plain HTML, CSS, and JavaScript, with generated stati
 
 ## Production roadmap
 
-`data/icon-roadmap.json` lists **760 unique concepts in 30 categories**, including the 90 implemented icons. Each concept has a slug, status, and production brief. The roadmap page links only to available icons; planned items do not get empty SEO pages.
+`data/icon-roadmap.json` lists **760 unique concepts in 30 categories**, including the 220 implemented icons. Each concept has a slug, status, and production brief. The roadmap page links only to available icons; planned items do not get empty SEO pages.
 
 | Priority | Concepts | Why this comes first |
 | --- | ---: | --- |
@@ -33,7 +33,7 @@ The implemented product is plain HTML, CSS, and JavaScript, with generated stati
 | 2 | 272 | Weather, travel, analytics, typography, sustainability, food, health, education, productivity, transport, and finance. These broaden real product coverage. |
 | 3 | 155 | Buildings, sport, animals, science/tools, shapes, and entertainment. Expand when the core families are coherent. |
 
-The first 90 span 14 live categories. The priority numbers are proposed ordering, not observed demand, download counts, or promises about search rankings.
+The first release had 90 icons in 14 categories. The expanded collection has 220 icons in 18 categories. The priority numbers are proposed ordering, not observed demand, download counts, or promises about search rankings.
 
 ### Batch planning
 
@@ -69,7 +69,7 @@ The template is `templates/icon.html`; the build renders it into a directory per
 - Links to its category, related icons, guide, and license.
 - `ImageObject` and `BreadcrumbList` JSON-LD that describes visible content.
 
-Category pages are static too. The sitemap includes all 108 current indexable pages and images for the 90 icon pages. Search/filter query strings canonicalize to the underlying page rather than producing thousands of thin pages. The 404 page is noindex. No ratings, usage counts, fake reviews, or unsupported rich-result claims are inserted.
+Category pages are static too. The sitemap includes all 242 current indexable pages and images for the 220 icon pages. Search/filter query strings canonicalize to the underlying page rather than producing thousands of thin pages. The 404 page is noindex. No ratings, usage counts, fake reviews, or unsupported rich-result claims are inserted.
 
 Structured data helps describe content; it does not guarantee indexing, rankings, or rich results. After launch, verify the domain in Search Console, submit the sitemap, and check the deployed canonical URLs, HTTPS, successful image responses, and crawler access. Social previews may benefit from dedicated PNG artwork later; the build includes text Open Graph metadata without pretending to have a rendered social-image pipeline.
 

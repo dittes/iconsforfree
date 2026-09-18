@@ -4,6 +4,7 @@
  const icons = window.ICON_LIBRARY || [];
  const $ = s => document.querySelector(s);
  const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const directURL = icon => `https://iconsforfree.com/icons/${icon.slug}.svg`;
  const defaults = {color:'#253047', background:'#eef2ff', transparent:true, stroke:1.75, size:24};
  let settings = {...defaults};
  const main = $('#main');
@@ -23,6 +24,7 @@
  function selectIcon(icon, scroll=false) {
   selected=icon;
   $('#selected-name').textContent=icon.name;
+  $('#direct-url').value=directURL(icon);
   $('#selected-category').textContent=`${icon.category} / Line 01`;
   $('#detail-link').href=`/icons/${icon.slug}/`;
   $('#detail-link').setAttribute('aria-label',`Open ${icon.name} icon details`);
@@ -34,7 +36,6 @@
   // Display at a constant inspection size; exports use the user's chosen dimensions.
   $('#preview').innerHTML=svg(selected,{...settings,size:80,background:settings.transparent?null:settings.background},true);
   $('#stroke-output').textContent=settings.stroke;
-  $('#size-output').textContent=`${settings.size} px`;
   $('#background-color').disabled=settings.transparent;
   $('#background-hex').disabled=settings.transparent;
   // Apply color and weight to every catalogue icon without changing card labels.
@@ -86,7 +87,7 @@
   const syncControls=()=>{
    $('#stroke-color').value=settings.color;$('#stroke-hex').value=settings.color;
    $('#background-color').value=settings.background;$('#background-hex').value=settings.background;
-   $('#stroke-width').value=settings.stroke;$('#icon-size').value=settings.size;$('#transparent').checked=settings.transparent;
+   $('#stroke-width').value=settings.stroke;$('#icon-size').value=settings.size;$('#size-number').value=settings.size;$('#transparent').checked=settings.transparent;
    document.querySelectorAll('[aria-invalid=true]').forEach(el=>el.removeAttribute('aria-invalid'));
    renderPreview();
   };
@@ -94,14 +95,30 @@
    $('#'+prefix+'-color').addEventListener('input',e=>{settings[key]=e.target.value;$('#'+prefix+'-hex').value=e.target.value;$('#'+prefix+'-hex').removeAttribute('aria-invalid');renderPreview();});
    $('#'+prefix+'-hex').addEventListener('input',e=>{const valid=hex(e.target.value);e.target.setAttribute('aria-invalid',String(!valid));if(valid){settings[key]=e.target.value;$('#'+prefix+'-color').value=e.target.value;renderPreview();status('Color updated.');}else status('Enter a six-digit hex color, such as #2455db.','error');});
   });
-  document.querySelectorAll('[data-color]').forEach(el=>el.addEventListener('click',()=>{settings.color=el.dataset.color;syncControls();}));
+  document.querySelectorAll('[data-color]').forEach(el=>el.addEventListener('click',()=>{settings.color=el.dataset.color;$('#stroke-color').value=settings.color;$('#stroke-hex').value=settings.color;$('#stroke-hex').removeAttribute('aria-invalid');renderPreview();}));
   $('#stroke-width').addEventListener('input',e=>{settings.stroke=Number(e.target.value);renderPreview();});
-  $('#icon-size').addEventListener('input',e=>{settings.size=Number(e.target.value);renderPreview();});
+  const setSizeValidity = valid => {
+   $('#size-number').setAttribute('aria-invalid',String(!valid));
+   for(const id of ['#download-svg','#download-png','#copy-svg']) $(id).disabled=!valid;
+  };
+  $('#icon-size').addEventListener('input',e=>{
+   settings.size=Number(e.target.value);$('#size-number').value=settings.size;setSizeValidity(true);renderPreview();status(`Export size set to ${settings.size} × ${settings.size} pixels.`);
+  });
+  $('#size-number').addEventListener('input',e=>{
+   const value=Number(e.target.value);
+   const valid=e.target.value!==''&&Number.isInteger(value)&&value>=16&&value<=2048;
+   setSizeValidity(valid);
+   if(!valid){status('Enter a whole-number size from 16 to 2048 pixels.','error');return;}
+   settings.size=value;$('#icon-size').value=value;
+   status(`Export size set to ${value} × ${value} pixels.`);
+  });
   $('#transparent').addEventListener('change',e=>{settings.transparent=e.target.checked;renderPreview();});
-  $('#reset').addEventListener('click',()=>{settings={...defaults};syncControls();$('#copy-fallback')?.remove();status('Default style restored.');});
+  $('#reset').addEventListener('click',()=>{settings={...defaults};setSizeValidity(true);syncControls();$('#copy-fallback')?.remove();status('Default style restored.');});
   $('#back-to-icons').addEventListener('click',()=>{const card=document.querySelector('.icon-card.selected')||document.querySelector('.icon-card');if(card){card.scrollIntoView({block:'center'});card.focus({preventScroll:true});}else location.href='/';});
   $('#copy-svg').addEventListener('click',e=>copy(exportSVG(),e.currentTarget,'SVG copied. Ready to paste.'));
-  $('#copy-link').addEventListener('click',e=>copy(new URL(`/icons/${selected.slug}.svg`,location.origin).href,e.currentTarget,'Default SVG link copied. Custom colors are in your downloads.'));
+  $('#copy-link').addEventListener('click',e=>copy(directURL(selected),e.currentTarget,'Default SVG link copied. Custom colors are in your downloads.'));
+  $('#copy-embed').addEventListener('click',e=>copy(`<img src="${directURL(selected)}" width="24" height="24" alt="${escape(selected.name)}">`,e.currentTarget,'HTML embed copied. Uses the original SVG at 24 pixels.'));
+  $('#direct-url').addEventListener('click',e=>e.target.select());
   $('#download-svg').addEventListener('click',()=>{download(new Blob([exportSVG()],{type:'image/svg+xml;charset=utf-8'}),`${selected.slug}.svg`);status('SVG download started.');});
   $('#download-png').addEventListener('click',async e=>{
    const button=e.currentTarget;button.disabled=true;button.setAttribute('aria-busy','true');status('Preparing PNG…');

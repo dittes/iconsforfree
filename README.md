@@ -1,20 +1,21 @@
 # iconsforfree
 
-A plain HTML/CSS/JavaScript icon catalogue for **iconsforfree.com**. Includes 90 original SVG icons, a live editor, SVG/PNG downloads, keyboard search, 14 category pages, and 90 individual icon pages.
+A plain HTML/CSS/JavaScript icon catalogue for **iconsforfree.com**. Includes 289 original SVG icons, a live editor, SVG/PNG downloads, keyboard search, 24 category pages, and 289 individual icon pages.
 
 ## Preview
 
 ```sh
-python3 -m http.server 4188 --bind 127.0.0.1
+python3 scripts/build.py
+python3 -m http.server 4188 --bind 127.0.0.1 --directory dist
 ```
 
-Open http://127.0.0.1:4188. Serve from the project root; opening `index.html` as a `file://` document will not resolve root-relative paths.
+Open http://127.0.0.1:4188. Serve the generated `dist/` folder; opening `index.html` as a `file://` document will not resolve root-relative paths.
 
 ## Important files
 
 - `data/icon-generation.json` — reusable generation prompt, variables, style contract, references, and acceptance checklist.
 - `data/icon-roadmap.json` — 760 unique concepts across 30 categories, with priorities and availability.
-- `data/icons.json` — source of truth for the 90 implemented icons, safe geometry, descriptions, and synonyms.
+- `data/icons.json` — source of truth for the 289 implemented icons, safe geometry, descriptions, and synonyms.
 - `docs/research.md` — source-linked product research, production plan, SVG decisions, and SEO strategy.
 - `templates/icon.html` — reusable individual icon page template.
 - `scripts/build.py` — standard-library static generator and SVG allowlist validator.
@@ -39,7 +40,7 @@ Edit source templates/build functions rather than generated HTML. Removing or re
 
 ## Features
 
-Search by name, category, or synonym; filter by category; sort alphabetically; use Cmd/Ctrl+K for keyboard search. Select an icon to customize stroke color, background color/transparency, stroke width (1–2.5 units), and export size (16–128px). The enlarged preview is fixed at 80px for inspection. PNG export uses the exact selected dimensions.
+Search by name, category, or synonym; filter by category; sort alphabetically; use Cmd/Ctrl+K for keyboard search. Select an icon to customize stroke color, background color/transparency, stroke width (1–2.5 units), and export size (16–2048px). Enter an exact size using the numeric field. The enlarged preview is fixed at 80px for inspection. PNG export uses the exact selected dimensions.
 
 The customizer applies color and weight across catalogue previews; background applies to the selected icon and exports. SVG copy/download bakes in your chosen color. Default source SVGs use `currentColor`. Clipboard failures expose a selectable text fallback. Basic page navigation and original downloads work without JavaScript.
 
@@ -48,9 +49,9 @@ The customizer applies color and weight across catalogue previews; background ap
 - Asset: `https://iconsforfree.com/icons/home.svg`
 - Detail page: `https://iconsforfree.com/icons/home/`
 
-Direct links use the current host when copied, so local previews remain testable. Public URLs work after deployment. Direct URLs return default SVGs; custom appearance is carried by downloaded files or copied inline SVG. An external SVG image cannot inherit the surrounding page's text color. Query parameters on static SVG files do not customize them.
+The inspector shows a production URL and can copy the URL or a ready-to-paste HTML image tag. Public URLs work after deployment. Direct URLs return default SVGs; custom appearance is carried by downloaded files or copied inline SVG. An external SVG image cannot inherit the surrounding page's text color. Query parameters on static SVG files do not customize them.
 
-Deploy the repository root to a static host with directory index support. `CNAME` and `.nojekyll` support a custom-domain GitHub Pages setup. No hosting, DNS, or production changes have been made. If using another domain, update `BASE` in `scripts/build.py`, the guide's embedding example, and `CNAME`, then rebuild.
+Deploy only `dist/` to a static host with directory index support. This allowlisted output excludes the generation prompt, roadmap, source data, templates, scripts, and internal documents. `CNAME` and `.nojekyll` support a custom-domain GitHub Pages setup. No hosting, DNS, or production changes have been made. If using another domain, update `BASE` in `scripts/build.py`, `directURL` in `app.js`, the guide's embedding example, and `CNAME`, then rebuild.
 
 ## Design and permission
 

@@ -1,0 +1,56 @@
+[
+  {
+    "foreground": "ink",
+    "background": "paper",
+    "ratio": 15.76,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "muted",
+    "background": "paper",
+    "ratio": 6.53,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "muted",
+    "background": "soft",
+    "ratio": 6.2,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "accent",
+    "background": "selected",
+    "ratio": 5.72,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "accent-ink",
+    "background": "accent",
+    "ratio": 6.44,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "on-dark",
+    "background": "graphite",
+    "ratio": 14.6,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "dark-muted",
+    "background": "graphite",
+    "ratio": 7.88,
+    "minimum": 4.5
+  },
+  {
+    "foreground": "control",
+    "background": "surface",
+    "ratio": 3.58,
+    "minimum": 3
+  },
+  {
+    "foreground": "accent",
+    "background": "paper",
+    "ratio": 6.34,
+    "minimum": 3
+  }
+]
