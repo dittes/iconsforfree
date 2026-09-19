@@ -139,6 +139,22 @@
   });
   selectIcon(selected);
  }
+ // Share the clean production URL; filters and local preview URLs are never published.
+ const shareButton=$('#share-collection');
+ if(shareButton){
+  shareButton.hidden=false;
+  shareButton.addEventListener('click',async()=>{
+   const url='https://iconsforfree.com/';
+   const feedback=$('#share-status');
+   feedback.textContent='';$('#share-fallback').hidden=true;
+   if(navigator.share){
+    try{await navigator.share({title:'Icons for free',text:'Original SVG icons. Customize, download and use freely under CC0.',url});return;}
+    catch(error){if(error.name==='AbortError')return;}
+   }
+   try{await navigator.clipboard.writeText(url);feedback.textContent='Collection link copied.';}
+   catch{const field=$('#share-fallback');field.hidden=false;field.focus();field.select();feedback.textContent='Select and copy the link below.';}
+  });
+ }
  // Native dialog supplies focus containment, Escape handling, and background inertness.
  const dialog=$('#search-dialog'),input=$('#command-input'),results=$('#command-results');
  let returnFocus;

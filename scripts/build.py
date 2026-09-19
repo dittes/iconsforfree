@@ -58,8 +58,10 @@ def asset(path):
  return "/"+path+"?v="+hashlib.sha256((ROOT/path).read_bytes()).hexdigest()[:12]
 def page(title,desc,path,body,structured=None):
  canonical=BASE+path
+ social_image=BASE+asset('assets/social/preview.png')
+ social_alt=f'Icons for free: {len(ICONS):,} original customizable SVG icons, with a selection of line icons on a cobalt and white background.'
  schema=f'<script type="application/ld+json">{json.dumps(structured).replace("<","\\u003c")}</script>' if structured else ''
- return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{E(title)}</title><meta name="description" content="{E(desc)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{canonical}"><meta name="theme-color" content="#f8faff"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{asset('styles.css')}">{schema}<script src="{asset('assets/icons-data.js')}" defer></script><script src="{asset('app.js')}" defer></script></head><body>{nav()}{body}{footer()}{dialog()}</body></html>'''
+ return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{E(title)}</title><meta name="description" content="{E(desc)}"><link rel="canonical" href="{canonical}"><meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{canonical}"><meta property="og:site_name" content="Icons for free"><meta property="og:locale" content="en_US"><meta property="og:image" content="{social_image}"><meta property="og:image:secure_url" content="{social_image}"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{E(social_alt)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{E(title)}"><meta name="twitter:description" content="{E(desc)}"><meta name="twitter:image" content="{social_image}"><meta name="twitter:image:alt" content="{E(social_alt)}"><meta name="theme-color" content="#f8faff"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="{asset('styles.css')}">{schema}<script src="{asset('assets/icons-data.js')}" defer></script><script src="{asset('app.js')}" defer></script></head><body>{nav()}{body}{footer()}{dialog()}</body></html>'''
 def catalogue(category=None):
  items=[i for i in ICONS if not category or i['category']==category]
  catnav=''
@@ -69,8 +71,11 @@ def catalogue(category=None):
   symbol='grid' if cat=='All icons' else next(i['slug'] for i in ICONS if i['category']==cat)
   active=(cat==category or cat=='All icons' and not category)
   catnav+=f'<a href="{href}" data-category="{E(cat)}" class="{"active" if active else ""}"'+(' aria-current="page"' if active else '')+f'>{glyph(symbol)}<span>{E(cat)}</span><span class="count">{count}</span></a>'
- heading=f'{category} icons.' if category else 'Small icons. Endless possibilities.'
- return f'''<div class="shell"><section class="intro"><div><h1>{E(heading)}</h1><p>Original line icons for whatever you’re making. Customize, copy, and carry on.</p></div><div class="collection-note"><strong>Line 01 collection</strong>{len(ICONS)} icons · 24px grid · Free to use</div></section>
+ heading=f'{category} icons.' if category else 'Free icons. Made to be yours.'
+ intro_text='Original line icons for whatever you’re making. Customize, copy, and carry on.' if category else f'{len(ICONS):,} original SVG icons. Customize color and stroke, then download SVG or PNG.'
+ home_extras='' if category else '<div class="home-benefits"><span>No signup</span><a href="/license/">CC0 · No attribution required</a><span>PNG up to 2048 px</span></div>'
+ share_controls='' if category else '<div class="collection-share"><button class="btn" id="share-collection" type="button" hidden>Share collection</button><p id="share-status" class="share-status" role="status" aria-live="polite"></p><input id="share-fallback" class="hex-field" aria-label="Collection link to copy" value="https://iconsforfree.com/" readonly hidden></div>'
+ return f'''<div class="shell"><section class="intro"><div><h1>{E(heading)}</h1><p>{E(intro_text)}</p>{home_extras}</div><div class="collection-note{' has-share' if not category else ''}"><strong>Line 01 collection</strong>{len(ICONS):,} icons · 30 categories{share_controls}</div></section>
  <main id="main" class="workspace" data-category="{E(category or 'All icons')}"><aside class="sidebar"><div class="sidebar-title">Browse the collection</div><nav class="category-nav" aria-label="Icon categories">{catnav}</nav><div class="sidebar-bottom"><a href="/guide/#design">Our design principles</a><p>One family.<br>A consistent point of view.<br>Room for your own style.</p></div></aside>
  <section class="catalogue" aria-label="Icon library"><noscript><p class="no-js">Choose an icon to open its page and download the original SVG. Enable JavaScript for customization.</p></noscript><div class="search-box">{glyph('search')}<input id="icon-search" type="search" placeholder="Search icons… try ‘arrow’ or ‘mail’" aria-label="Search this collection" autocomplete="off"><button class="clear-search" id="clear-search" aria-label="Clear search" hidden>{glyph('close')}</button></div><div class="results-head"><h2><span id="category-heading">{E(category or 'All icons')}</span> <span id="result-count" role="status">{len(items)} icons</span></h2><label><span class="sr-only" hidden>Sort icons</span><select id="sort" aria-label="Sort icons"><option value="collection">Collection order</option><option value="az">Name: A to Z</option><option value="za">Name: Z to A</option></select></label></div><div class="icon-grid" id="icon-grid">{''.join(card(i) for i in items)}</div><div class="empty-state" id="empty-state" hidden><h2>No icons found.</h2><p>Try a simpler word, like “mail”, “home”, or “arrow”.</p><button class="btn" id="reset-search">Clear filters</button></div><div class="catalogue-foot"><span>Same grid. Same stroke. Every icon belongs.</span><span>Click an icon to customize</span></div></section>{inspector(items[0])}</main>
  <section class="use-strip"><div><h2>A little SVG. A lot of freedom.</h2><p>Change the color. Find your weight. Use it in a website, an app, or your next big idea.</p><a href="/guide/">A quick guide to using icons</a></div><pre>&lt;svg viewBox="0 0 24 24"\n     fill="none"\n     stroke="currentColor"\n     stroke-width="1.75"&gt;\n  &lt;!-- Make it yours. --&gt;\n&lt;/svg&gt;</pre></section></div>'''
@@ -78,7 +83,7 @@ validate()
 for i in ICONS:write(f'icons/{i["slug"]}.svg',svg(i,24,False))
 write('assets/icons-data.js','window.ICON_LIBRARY = '+json.dumps(ICONS).replace('<','\\u003c')+';')
 write('assets/favicon.svg','<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#2455db"/><path d="M8 8h6v6H8Zm10 0h6v6h-6ZM8 18h6v6H8Zm10 0h6v6h-6Z" fill="#f8faff"/></svg>')
-write('index.html',page('Free SVG icons, made to be yours | iconsforfree',f'Browse {len(ICONS)} original outline icons. Customize stroke color, weight, size and background, then download SVG or PNG for free.','/',catalogue(),{'@context':'https://schema.org','@type':'WebSite','name':'iconsforfree','url':BASE+'/'}))
+write('index.html',page(f'{len(ICONS):,} free SVG icons · CC0 | Icons for free',f'Original icons for websites, apps and side projects. Customize colors and strokes. Download SVG or PNG up to 2048px. CC0, no attribution or signup.','/',catalogue(),{'@context':'https://schema.org','@type':'WebSite','name':'iconsforfree','url':BASE+'/'}))
 urls=['/','/guide/','/license/','/imprint/']
 for cat in categories:
  path=f'/categories/{slugify(cat)}/';urls.append(path)
@@ -112,7 +117,7 @@ print(f'Built {len(ICONS)} validated SVGs, {len(categories)} categories, and {le
 public=ROOT/'dist'
 if public.exists():shutil.rmtree(public)
 public.mkdir()
-for path in PUBLIC_FILES | {'styles.css','tokens.css','app.js','CNAME','LICENSE-ICONS'}:
+for path in PUBLIC_FILES | {'styles.css','tokens.css','app.js','CNAME','LICENSE-ICONS','assets/social/preview.png'}:
  target=public/path;target.parent.mkdir(parents=True,exist_ok=True)
  shutil.copy2(ROOT/path,target)
 print('Public-only deployment output: dist/ (project prompts, roadmap and docs excluded).')

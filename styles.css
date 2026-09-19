@@ -864,3 +864,16 @@ footer,footer nav{
 .embed-controls{display:grid;gap:var(--space-sm);margin-top:var(--space-sm)}
 .direct-url{width:100%;min-width:0;font-size:11px}
 .embed-note{font-size:var(--text-xs);color:var(--color-muted);line-height:1.5;margin:0}
+
+/* Homepage: a clear promise and lightweight sharing, using the existing tokens. */
+.intro>div:first-child{min-width:0}
+.intro p{max-width:65ch;line-height:1.65}
+.home-benefits{display:flex;flex-wrap:wrap;gap:var(--space-xs) var(--space-lg);margin-top:var(--space-md);font-size:var(--text-xs);color:var(--color-muted)}
+.home-benefits a{white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+.collection-share{margin-top:var(--space-md)}
+.collection-share .btn{min-height:38px}
+.share-status{font-size:var(--text-xs);color:var(--color-muted);min-height:1.4em;margin-top:var(--space-xs)}
+.collection-share input{max-width:260px;text-align:left}
+@media(max-width:767px){.home-benefits{gap:var(--space-xs) var(--space-md)}.collection-share{margin-top:var(--space-sm)}}
+
+@media(max-width:767px){.collection-note.has-share{display:block;text-align:left;margin-top:var(--space-lg)}.intro .share-status{font-size:var(--text-xs);margin-block:var(--space-xs) 0}}
