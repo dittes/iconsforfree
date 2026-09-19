@@ -1,6 +1,6 @@
 # iconsforfree
 
-A plain HTML/CSS/JavaScript icon catalogue for **iconsforfree.com**. Includes 289 original SVG icons, a live editor, SVG/PNG downloads, keyboard search, 24 category pages, and 289 individual icon pages.
+A plain HTML/CSS/JavaScript icon catalogue for **iconsforfree.com**. Includes 1,154 original SVG icons, a live editor, SVG/PNG downloads, keyboard search, 30 category pages, and 1,154 individual icon pages.
 
 ## Preview
 
@@ -14,8 +14,8 @@ Open http://127.0.0.1:4188. Serve the generated `dist/` folder; opening `index.h
 ## Important files
 
 - `data/icon-generation.json` — reusable generation prompt, variables, style contract, references, and acceptance checklist.
-- `data/icon-roadmap.json` — 760 unique concepts across 30 categories, with priorities and availability.
-- `data/icons.json` — source of truth for the 289 implemented icons, safe geometry, descriptions, and synonyms.
+- `data/icon-roadmap.json` — 1,279 unique concepts across 30 categories, with priorities and availability.
+- `data/icons.json` — source of truth for the 1,154 implemented icons, safe geometry, descriptions, and synonyms.
 - `docs/research.md` — source-linked product research, production plan, SVG decisions, and SEO strategy.
 - `templates/icon.html` — reusable individual icon page template.
 - `scripts/build.py` — standard-library static generator and SVG allowlist validator.
@@ -55,8 +55,12 @@ Deploy only `dist/` to a static host with directory index support. This allowlis
 
 ## Design and permission
 
-Hallmark: Catalogue / Cobalt, Space Grotesk + Inter with JetBrains Mono for code. Cool near-white surfaces, cobalt selection, category rail, icon grid, and live inspector. Responsive layouts and reduced-motion support. Google Fonts requests are external; all icon assets are local.
+Hallmark: Catalogue / Cobalt, system UI fonts with a system monospace stack for code. Cool near-white surfaces, cobalt selection, category rail, icon grid, and live inspector. Responsive layouts and reduced-motion support. No external fonts or font requests; all icon assets are local.
 
-The original icons are free for personal and commercial use under the terms in `/license/`. No external icon library is bundled. The roadmap contains planned concepts, not additional finished artwork.
+The original icons are dedicated to the public domain under CC0 1.0 Universal. Attribution is not required. See `LICENSE-ICONS` and `/license/`. No external icon library is bundled. The roadmap contains planned concepts, not additional finished artwork.
 
 See `docs/verification.md` for validation results and limitations.
+
+The earlier 600-icon expansion adds exactly 20 icons to each of the 30 categories. See `data/expansion-600.json` for the per-category counts and complete batch manifest. Existing category totals differ; the 600 additions are evenly distributed.
+
+The latest batch adds 54 AI, desktop, window, phone and connectivity icons. Two-character searches such as `AI` match complete terms, so unrelated words such as “mail” are excluded.

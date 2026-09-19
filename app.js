@@ -12,7 +12,11 @@
  const initialCategory = main?.dataset.category || 'All icons';
  let category = initialCategory;
  let selected = icons.find(i => i.slug === main?.dataset.icon) || icons.find(i => category === 'All icons' || i.category === category) || icons[0];
- const matches = (icon, query) => query.toLowerCase().trim().split(/\s+/).every(word => [icon.name, icon.slug, icon.category, ...icon.tags].join(' ').toLowerCase().includes(word));
+ const matches = (icon, query) => {
+  const text = [icon.name, icon.slug, icon.category, ...icon.tags].join(' ').toLowerCase();
+  const terms = text.split(/[^a-z0-9]+/);
+  return query.toLowerCase().trim().split(/\s+/).filter(Boolean).every(word => word.length <= 2 ? terms.includes(word) : text.includes(word));
+ };
  const hex = value => /^#[0-9a-f]{6}$/i.test(value);
  const status = (message, state='success') => { const node=$('#action-status'); if(node){node.textContent=message; node.dataset.state=state;} };
  function svg(icon, opts={}, decorative=false) {

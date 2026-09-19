@@ -111,5 +111,11 @@
   "notes": [
     "A prompt cannot guarantee visual consistency; keep a human review gate and fixed reference set.",
     "Stroke-weight variants share the same geometry; they are not separate generated icons. Filled, duotone, and optical-size families would require separate specifications."
-  ]
+  ],
+  "license": {
+    "identifier": "CC0-1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "scope": "Original Line 01 icon artwork and its SVG/PNG exports",
+    "attribution_required": false
+  }
 }

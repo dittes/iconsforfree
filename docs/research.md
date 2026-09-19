@@ -25,7 +25,7 @@ The implemented product is plain HTML, CSS, and JavaScript, with generated stati
 
 ## Production roadmap
 
-`data/icon-roadmap.json` lists **760 unique concepts in 30 categories**, including the 220 implemented icons. Each concept has a slug, status, and production brief. The roadmap page links only to available icons; planned items do not get empty SEO pages.
+`data/icon-roadmap.json` began with 760 researched concepts in 30 categories. Following the September 18 editorial expansions it contains 1,228 concepts, including 1,100 implemented icons. The latest batch adds 20 icons per category; its additional concepts were authored for this project rather than collected through new external research. The roadmap remains internal, and planned items do not get empty SEO pages.
 
 | Priority | Concepts | Why this comes first |
 | --- | ---: | --- |

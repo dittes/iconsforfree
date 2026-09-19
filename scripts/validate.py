@@ -23,6 +23,17 @@ class Page(HTMLParser):
 icons=json.loads((ROOT/'data/icons.json').read_text());roadmap=json.loads((ROOT/'data/icon-roadmap.json').read_text())
 slugs={i['slug'] for i in icons};entries=[i for c in roadmap['categories'] for i in c['icons']]
 assert len(slugs)==len(icons)
+# The expansion manifest records an equal batch, independent of prior category totals.
+manifest_path=ROOT/'data/expansion-600.json'
+if manifest_path.exists():
+ from collections import Counter
+ manifest=json.loads(manifest_path.read_text())
+ batch=set(manifest['icons'])
+ assert len(batch)==600 and batch<=slugs
+ counts=Counter(i['category'] for i in icons if i['slug'] in batch)
+ assert len(counts)==30 and set(counts.values())=={20},counts
+ assert all(row['added']==20 and row['total']==row['previous']+20 for row in manifest['categories'])
+
 assert len({i['slug'] for i in entries})==len(entries)
 assert slugs<={i['slug'] for i in entries}
 assert all((i['status']=='available')==(i['slug'] in slugs) for i in entries)

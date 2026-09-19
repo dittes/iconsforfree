@@ -64,3 +64,33 @@ Added 69 original icons: 289 total across 24 live categories. Reviewed the new c
 The inspector displays a production URL and copies either that URL or a 24px HTML image tag. Verified both clipboard results for Store and the updated URL after selecting Store in the catalogue. Mobile editor and imprint have no horizontal overflow at 375px.
 
 Preview serves only `dist/`. HTTP checks: home, imprint and Store SVG return 200; roadmap and both internal prompt/roadmap JSON routes return 404. Source data and roadmap template remain in the repository. Decorative link arrows removed. No production deployment performed; production embed URLs require deployment.
+
+## 500-icon expansion, CC0 and local typography — 18 September 2026
+
+Added 211 icons, bringing the collection to 500 across all 30 categories. New categories include Home & buildings, Sports & outdoors, Animals, Science & tools, Games & entertainment, and Accessibility & inclusion. All new icons were reviewed in four contact sheets at stroke widths 1, 1.75 and 2.5. Refined edge spacing for books, octopus and spacing controls; closed calendar and archive silhouettes where no badge requires an opening.
+
+CC0 1.0 now applies to the original icon artwork, SVGs and PNG exports. Updated the license page, every footer, inspector notice, 500 ImageObject license properties, authoring contract and LICENSE-ICONS. The official German Creative Commons deed was checked against the user-supplied URL. Removed the previous custom license restriction.
+
+Removed Google Fonts links and preconnects. Display/body text use system-ui stacks and code uses a local monospace stack. No font files or font CSS are requested externally. Verified all 535 generated public HTML pages and CSS for absent external fonts; every footer links CC0.
+
+Validation passes: 500 SVG contracts, 760 roadmap concepts, 535 HTML pages with local links, image metadata and sitemap; JavaScript syntax passes. Catalogue and license pages have no horizontal overflow at 320, 375, 414 and 768px. Browser checks confirmed 500-icon count, Octopus search returning one result, selection and copied SVG. Preview remains local; no production deployment performed.
+
+## Equal 600-icon expansion — 18 September 2026
+
+Added exactly 600 icons: 20 additions in each of the 30 categories, for 1,100 total. Earlier category totals differ; the new additions are equal. `data/expansion-600.json` records before/after counts and the complete batch. Validation now verifies its 600 unique slugs and category distribution. The internal roadmap has 1,228 concepts; additional concepts were authored editorially for this project, not claimed as new external research.
+
+Reviewed every new icon in ten 60-icon contact sheets, each at 1, 1.75 and 2.5 stroke widths. New standalone pictograms and contextual action/state variants share inherited root strokes and the existing 24px grid. Corrected the duplicate cross geometry, replaced the pinned-note marker with a pushpin, and inset drawings that exceeded the 1.25-unit stroke-clearance bounds. A browser geometry check of all 600 new icons reported no remaining bounds violations before the final pinned-note refinement, which is also contained within the grid. No identical SVG body strings remain in the full library.
+
+Build and validation pass: 1,100 SVG contracts, 1,228 unique roadmap concepts, 1,135 public HTML pages and local links, 1,100 ImageObject/breadcrumb records, sitemap and image references. JavaScript syntax passes.
+
+Browser checks: home reports 1,100 icons; Files reports 47 (27 previous + 20 new); Pineapple search returns one result; copied SVG has 2048px width and height. PNG blob verification confirms the correct PNG signature, 2048×2048 dimensions and 175,583 bytes for Pineapple. New SVG, detail and category routes return HTTP 200. Catalogue has no horizontal overflow at 320, 375, 414 or 768px. CC0, system fonts and public-only dist output are preserved. No production deployment performed.
+
+## AI and device expansion — 19 September 2026
+
+Added 54 icons: 12 AI/model concepts, 10 desktop hardware/workflows, 10 Windows/window-management concepts, 12 mobile-phone concepts, and 10 connectivity/security concepts. Total: 1,154 icons, 30 categories. New concepts extend the internal roadmap to 1,279 entries.
+
+Reviewed all 54 new drawings at stroke widths 1, 1.75 and 2.5. Corrected the AI workflow, phone-notification and hotspot bounds; browser getBBox checks with a 1.25-unit stroke reserve now report no violations. No identical SVG body strings found.
+
+Two-character search terms now match whole tokens: searching AI returns exactly the 12 AI icons rather than unrelated mail icons. Verified Windows, desktop, phone and USB searches; the clear-search button restores all 1,154 icons. Verified AI chip selection, production direct-link clipboard content and 2048×2048 copied SVG dimensions. Catalogue has no horizontal overflow at 375px.
+
+Build and validation pass: 1,154 SVG contracts, 1,189 public HTML pages with valid local links, 1,154 image/breadcrumb records, sitemap and image references. JavaScript syntax check passes. The prior interrupted build was regenerated completely. No production deployment performed.
