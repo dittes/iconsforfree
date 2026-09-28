@@ -94,3 +94,13 @@ Reviewed all 54 new drawings at stroke widths 1, 1.75 and 2.5. Corrected the AI 
 Two-character search terms now match whole tokens: searching AI returns exactly the 12 AI icons rather than unrelated mail icons. Verified Windows, desktop, phone and USB searches; the clear-search button restores all 1,154 icons. Verified AI chip selection, production direct-link clipboard content and 2048×2048 copied SVG dimensions. Catalogue has no horizontal overflow at 375px.
 
 Build and validation pass: 1,154 SVG contracts, 1,189 public HTML pages with valid local links, 1,154 image/breadcrumb records, sitemap and image references. JavaScript syntax check passes. The prior interrupted build was regenerated completely. No production deployment performed.
+
+## Voice and telephony expansion — 28 September 2026
+
+Added 24 original icons, split evenly between Communication and Media; 1,178 icons total. Manifest: data/voice-icon-slugs.json. Reviewed every new drawing at 1, 1.75 and 2.5 stroke widths in docs/voice-icons-proof.png. No duplicate SVG bodies. Hallmark critique: P5 H4 E4 S5 R5 V4.
+
+Build and validation pass for 1,178 SVG contracts, 1,303 roadmap concepts, 1,213 HTML pages and local links, structured data and sitemap. Browser verified waveform search (four results), call recording search (one result), customizer selection and direct URL, and the call-recording detail page. Refreshed social and Product Hunt artwork to the current count. No deployment performed.
+
+## Social homepage and launch artwork
+
+Homepage copy, benefit row and native share/clipboard fallback added. Static Open Graph and large X cards use a 1200×630 PNG copied into dist. Five 1270×760 launch panels, editable SVG originals, and a 240×240 thumbnail are packaged in launch/product-hunt-launch.zip. Reviewed rendered artwork. Metadata checked on all public pages; PNG dimensions and sizes verified. Share branches checked with a Node harness (native share, cancellation, clipboard, unavailable clipboard). Prior desktop and 320/375/768px checks passed; mobile collection note visibility was corrected afterward. No social-platform posting or production crawler validation performed.

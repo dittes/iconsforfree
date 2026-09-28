@@ -15705,5 +15705,355 @@
       "security"
     ],
     "body": "<path d=\"M11 18H6a4 4 0 0 1-1-8 7 7 0 0 1 13-2 5 5 0 0 1 2 9M17 22v-9m-4 4 4-4 4 4\"/>"
+  },
+  {
+    "slug": "call-recording",
+    "name": "Call recording",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "record",
+      "recording",
+      "voice"
+    ],
+    "description": "A telephone handset with a circular recording indicator.",
+    "body": "<path d=\"M4 3h3l2 4-2 2a13 13 0 0 0 8 8l2-2 4 2v3C10 23 1 12 4 3Z\"/><circle cx=\"17\" cy=\"6\" r=\"3\"/>"
+  },
+  {
+    "slug": "call-hold",
+    "name": "Call hold",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "pause",
+      "waiting"
+    ],
+    "description": "A handset with paired pause bars for placing a call on hold.",
+    "body": "<path d=\"M4 3h3l2 4-2 2a13 13 0 0 0 8 8l2-2 4 2v3C10 23 1 12 4 3Z\"/><path d=\"M15 3v6M20 3v6\"/>"
+  },
+  {
+    "slug": "call-transfer",
+    "name": "Call transfer",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "forward",
+      "routing",
+      "transfer"
+    ],
+    "description": "A handset with a rightward arrow for transferring a call.",
+    "body": "<path d=\"M4 3h3l2 4-2 2a13 13 0 0 0 8 8l2-2 4 2v3C10 23 1 12 4 3Z\"/><path d=\"M13 6h8m-3-3 3 3-3 3\"/>"
+  },
+  {
+    "slug": "call-ended",
+    "name": "Call ended",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "hang up",
+      "disconnect"
+    ],
+    "description": "A lowered telephone receiver for ending a call.",
+    "body": "<path d=\"M3 12c5-6 13-6 18 0l-2 4-4-2v-3a12 12 0 0 0-6 0v3l-4 2Z\"/>"
+  },
+  {
+    "slug": "call-history",
+    "name": "Call history",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "recent",
+      "log",
+      "history"
+    ],
+    "description": "A handset with clock hands showing recent call activity.",
+    "body": "<path d=\"M4 3h3l2 4-2 2a13 13 0 0 0 8 8l2-2 4 2v3C10 23 1 12 4 3Z\"/><circle cx=\"17\" cy=\"6\" r=\"3.5\"/><path d=\"M17 4v2h2\"/>"
+  },
+  {
+    "slug": "call-blocked",
+    "name": "Call blocked",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "spam",
+      "block"
+    ],
+    "description": "A handset with a barred circle for blocked callers.",
+    "body": "<path d=\"M4 3h3l2 4-2 2a13 13 0 0 0 8 8l2-2 4 2v3C10 23 1 12 4 3Z\"/><circle cx=\"17\" cy=\"6\" r=\"3.5\"/><path d=\"m14.5 8.5 5-5\"/>"
+  },
+  {
+    "slug": "call-queue",
+    "name": "Call queue",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "waiting",
+      "queue",
+      "contact center"
+    ],
+    "description": "A handset beside stacked queue lines for waiting callers.",
+    "body": "<path d=\"M4 3h3l2 4-2 2a13 13 0 0 0 8 8l2-2 4 2v3C10 23 1 12 4 3Z\"/><path d=\"M13 3h8M14 6h7M16 9h5\"/>"
+  },
+  {
+    "slug": "call-routing",
+    "name": "Call routing",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "telephony",
+      "routing",
+      "ivr",
+      "switchboard"
+    ],
+    "description": "A branching connection diagram for routing an incoming call.",
+    "body": "<path d=\"M12 3v6M5 15v-4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4M3 13l2 2 2-2M17 13l2 2 2-2\"/><rect x=\"2\" y=\"18\" width=\"6\" height=\"3\" rx=\"1\"/><rect x=\"16\" y=\"18\" width=\"6\" height=\"3\" rx=\"1\"/>"
+  },
+  {
+    "slug": "voicemail",
+    "name": "Voicemail",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "telephony",
+      "voice",
+      "voicemail",
+      "answering machine"
+    ],
+    "description": "Two connected reels for voicemail and recorded messages.",
+    "body": "<circle cx=\"6\" cy=\"12\" r=\"4\"/><circle cx=\"18\" cy=\"12\" r=\"4\"/><path d=\"M6 16h12\"/>"
+  },
+  {
+    "slug": "voice-message",
+    "name": "Voice message",
+    "category": "Communication",
+    "tags": [
+      "voice",
+      "audio",
+      "message",
+      "chat",
+      "recording"
+    ],
+    "description": "A speech bubble containing a short voice waveform.",
+    "body": "<path d=\"M5 4h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 3v-3a2 2 0 0 1-2-2V7a3 3 0 0 1 3-3Z\"/><path d=\"M7 10v3M10 8v7M13 9v5M16 10v3\"/>"
+  },
+  {
+    "slug": "dial-pad",
+    "name": "Dial pad",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "phone",
+      "telephony",
+      "dial",
+      "keypad",
+      "dtmf"
+    ],
+    "description": "A telephone keypad with nine keys and a centered zero.",
+    "body": "<circle cx=\"6\" cy=\"4\" r=\"1\"/><circle cx=\"12\" cy=\"4\" r=\"1\"/><circle cx=\"18\" cy=\"4\" r=\"1\"/><circle cx=\"6\" cy=\"9\" r=\"1\"/><circle cx=\"12\" cy=\"9\" r=\"1\"/><circle cx=\"18\" cy=\"9\" r=\"1\"/><circle cx=\"6\" cy=\"14\" r=\"1\"/><circle cx=\"12\" cy=\"14\" r=\"1\"/><circle cx=\"18\" cy=\"14\" r=\"1\"/><circle cx=\"12\" cy=\"20\" r=\"1\"/>"
+  },
+  {
+    "slug": "support-headset",
+    "name": "Support headset",
+    "category": "Communication",
+    "tags": [
+      "call",
+      "telephony",
+      "headset",
+      "support",
+      "agent",
+      "contact center"
+    ],
+    "description": "A headset with a boom microphone for support agents.",
+    "body": "<path d=\"M4 13v-2a8 8 0 0 1 16 0v7a3 3 0 0 1-3 3h-3\"/><rect x=\"3\" y=\"11\" width=\"4\" height=\"7\" rx=\"1.5\"/><rect x=\"17\" y=\"11\" width=\"4\" height=\"7\" rx=\"1.5\"/><path d=\"M11 21h3\"/>"
+  },
+  {
+    "slug": "waveform",
+    "name": "Waveform",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "speech",
+      "frequency"
+    ],
+    "description": "Five vertical sound bars of varying amplitude.",
+    "body": "<path d=\"M3 10v4M7.5 6v12M12 3v18M16.5 8v8M21 10v4\"/>"
+  },
+  {
+    "slug": "waveform-pulse",
+    "name": "Waveform pulse",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "signal",
+      "pulse"
+    ],
+    "description": "A continuous angular audio signal with alternating peaks.",
+    "body": "<path d=\"M2 12h3l2-6 3 13 4-15 3 13 2-5h3\"/>"
+  },
+  {
+    "slug": "waveform-circle",
+    "name": "Waveform circle",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "sound",
+      "assistant",
+      "listening"
+    ],
+    "description": "A circular listening control containing three sound bars.",
+    "body": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M8 10v4M12 7v10M16 10v4\"/>"
+  },
+  {
+    "slug": "voice-recording",
+    "name": "Voice recording",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "record",
+      "recording",
+      "microphone"
+    ],
+    "description": "A compact microphone with a separate recording indicator.",
+    "body": "<rect x=\"6\" y=\"3\" width=\"6\" height=\"11\" rx=\"3\"/><path d=\"M3 11v1a6 6 0 0 0 12 0M9 18v3M6 21h6\"/><circle cx=\"19\" cy=\"6\" r=\"3\"/>"
+  },
+  {
+    "slug": "audio-trim",
+    "name": "Audio trim",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "waveform",
+      "trim",
+      "edit",
+      "crop"
+    ],
+    "description": "A waveform between two adjustable trim boundaries.",
+    "body": "<path d=\"M3 3v18M2 3h3M2 21h3M21 3v18M19 3h3M19 21h3M7 10v4M10 7v10M14 5v14M17 9v6\"/>"
+  },
+  {
+    "slug": "audio-levels",
+    "name": "Audio levels",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "sound",
+      "volume",
+      "mixer",
+      "levels"
+    ],
+    "description": "Three vertical audio faders with different gain settings.",
+    "body": "<path d=\"M5 3v5m0 4v9M12 3v11m0 4v3M19 3v3m0 4v11\"/><rect x=\"3\" y=\"8\" width=\"4\" height=\"4\" rx=\"1\"/><rect x=\"10\" y=\"14\" width=\"4\" height=\"4\" rx=\"1\"/><rect x=\"17\" y=\"6\" width=\"4\" height=\"4\" rx=\"1\"/>"
+  },
+  {
+    "slug": "audio-transcript",
+    "name": "Audio transcript",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "speech",
+      "transcription",
+      "dictation",
+      "text"
+    ],
+    "description": "An audio waveform above a divider and two transcript lines.",
+    "body": "<path d=\"M4 6v3M8 3v9M12 5v5M16 4v7M20 6v3M3 15h18M4 18h16M4 21h10\"/>"
+  },
+  {
+    "slug": "read-aloud",
+    "name": "Read aloud",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "speech",
+      "synthesis",
+      "text",
+      "tts"
+    ],
+    "description": "Text lines beside a speaker projecting speech.",
+    "body": "<path d=\"M3 5h8M3 9h6M3 13h4M11 12h3l4-4v13l-4-4h-3ZM21 11a6 6 0 0 1 0 7\"/>"
+  },
+  {
+    "slug": "noise-reduction",
+    "name": "Noise reduction",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "sound",
+      "noise",
+      "filter",
+      "clarity"
+    ],
+    "description": "A funnel above a clean waveform for removing audio noise.",
+    "body": "<path d=\"M3 3h18l-7 7v3h-4v-3ZM4 18v2M8 16v6M12 17v4M16 16v6M20 18v2\"/>"
+  },
+  {
+    "slug": "broadcast-microphone",
+    "name": "Broadcast microphone",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "podcast",
+      "broadcast",
+      "microphone"
+    ],
+    "description": "A centered microphone surrounded by broadcast arcs.",
+    "body": "<rect x=\"10\" y=\"6\" width=\"4\" height=\"9\" rx=\"2\"/><path d=\"M7 11v1a5 5 0 0 0 10 0v-1M12 17v4M9 21h6M6 5a9 9 0 0 0-2 11M18 5a9 9 0 0 1 2 11\"/>"
+  },
+  {
+    "slug": "audio-loop",
+    "name": "Audio loop",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "loop",
+      "repeat",
+      "playback"
+    ],
+    "description": "An audio waveform enclosed by repeat arrows.",
+    "body": "<path d=\"M4 8V5h15l-3-3M20 16v3H5l3 3M7 11v3M12 8v9M17 10v5\"/>"
+  },
+  {
+    "slug": "stereo-audio",
+    "name": "Stereo audio",
+    "category": "Media",
+    "tags": [
+      "voice",
+      "audio",
+      "stereo",
+      "channels",
+      "sound"
+    ],
+    "description": "Two independent waveforms representing left and right audio channels.",
+    "body": "<path d=\"M3 6v3M7 3v9M11 5v5M15 4v7M19 6v3M3 17v2M7 15v6M11 16v4M15 14v8M19 17v2\"/>"
   }
 ]

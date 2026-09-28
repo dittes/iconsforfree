@@ -1,6 +1,6 @@
 # iconsforfree
 
-A plain HTML/CSS/JavaScript icon catalogue for **iconsforfree.com**. Includes 1,154 original SVG icons, a live editor, SVG/PNG downloads, keyboard search, 30 category pages, and 1,154 individual icon pages.
+A plain HTML/CSS/JavaScript icon catalogue for **iconsforfree.com**. Includes 1,178 original SVG icons, a live editor, SVG/PNG downloads, keyboard search, 30 category pages, and 1,178 individual icon pages.
 
 ## Preview
 
@@ -15,7 +15,7 @@ Open http://127.0.0.1:4188. Serve the generated `dist/` folder; opening `index.h
 
 - `data/icon-generation.json` — reusable generation prompt, variables, style contract, references, and acceptance checklist.
 - `data/icon-roadmap.json` — 1,279 unique concepts across 30 categories, with priorities and availability.
-- `data/icons.json` — source of truth for the 1,154 implemented icons, safe geometry, descriptions, and synonyms.
+- `data/icons.json` — source of truth for the 1,178 implemented icons, safe geometry, descriptions, and synonyms.
 - `docs/research.md` — source-linked product research, production plan, SVG decisions, and SEO strategy.
 - `templates/icon.html` — reusable individual icon page template.
 - `scripts/build.py` — standard-library static generator and SVG allowlist validator.
@@ -64,3 +64,7 @@ See `docs/verification.md` for validation results and limitations.
 The earlier 600-icon expansion adds exactly 20 icons to each of the 30 categories. See `data/expansion-600.json` for the per-category counts and complete batch manifest. Existing category totals differ; the 600 additions are evenly distributed.
 
 The latest batch adds 54 AI, desktop, window, phone and connectivity icons. Two-character searches such as `AI` match complete terms, so unrelated words such as “mail” are excluded.
+
+Voice and telephony expansion: 24 icons recorded in `data/voice-icon-slugs.json`, with a visual proof in `docs/voice-icons-proof.png`.
+
+Launch artwork is in `launch/product-hunt/`; the complete package is `launch/product-hunt-launch.zip`. See the included README for upload order and regeneration. The public social image is `assets/social/preview.png`; the build includes it in `dist/`.

@@ -690,6 +690,66 @@
         {
           "slug": "message-favorite",
           "status": "available"
+        },
+        {
+          "slug": "call-recording",
+          "status": "available",
+          "brief": "A telephone handset with a circular recording indicator."
+        },
+        {
+          "slug": "call-hold",
+          "status": "available",
+          "brief": "A handset with paired pause bars for placing a call on hold."
+        },
+        {
+          "slug": "call-transfer",
+          "status": "available",
+          "brief": "A handset with a rightward arrow for transferring a call."
+        },
+        {
+          "slug": "call-ended",
+          "status": "available",
+          "brief": "A lowered telephone receiver for ending a call."
+        },
+        {
+          "slug": "call-history",
+          "status": "available",
+          "brief": "A handset with clock hands showing recent call activity."
+        },
+        {
+          "slug": "call-blocked",
+          "status": "available",
+          "brief": "A handset with a barred circle for blocked callers."
+        },
+        {
+          "slug": "call-queue",
+          "status": "available",
+          "brief": "A handset beside stacked queue lines for waiting callers."
+        },
+        {
+          "slug": "call-routing",
+          "status": "available",
+          "brief": "A branching connection diagram for routing an incoming call."
+        },
+        {
+          "slug": "voicemail",
+          "status": "available",
+          "brief": "Two connected reels for voicemail and recorded messages."
+        },
+        {
+          "slug": "voice-message",
+          "status": "available",
+          "brief": "A speech bubble containing a short voice waveform."
+        },
+        {
+          "slug": "dial-pad",
+          "status": "available",
+          "brief": "A telephone keypad with nine keys and a centered zero."
+        },
+        {
+          "slug": "support-headset",
+          "status": "available",
+          "brief": "A headset with a boom microphone for support agents."
         }
       ]
     },
@@ -1680,6 +1740,66 @@
         {
           "slug": "cassette",
           "status": "available"
+        },
+        {
+          "slug": "waveform",
+          "status": "available",
+          "brief": "Five vertical sound bars of varying amplitude."
+        },
+        {
+          "slug": "waveform-pulse",
+          "status": "available",
+          "brief": "A continuous angular audio signal with alternating peaks."
+        },
+        {
+          "slug": "waveform-circle",
+          "status": "available",
+          "brief": "A circular listening control containing three sound bars."
+        },
+        {
+          "slug": "voice-recording",
+          "status": "available",
+          "brief": "A compact microphone with a separate recording indicator."
+        },
+        {
+          "slug": "audio-trim",
+          "status": "available",
+          "brief": "A waveform between two adjustable trim boundaries."
+        },
+        {
+          "slug": "audio-levels",
+          "status": "available",
+          "brief": "Three vertical audio faders with different gain settings."
+        },
+        {
+          "slug": "audio-transcript",
+          "status": "available",
+          "brief": "An audio waveform above a divider and two transcript lines."
+        },
+        {
+          "slug": "read-aloud",
+          "status": "available",
+          "brief": "Text lines beside a speaker projecting speech."
+        },
+        {
+          "slug": "noise-reduction",
+          "status": "available",
+          "brief": "A funnel above a clean waveform for removing audio noise."
+        },
+        {
+          "slug": "broadcast-microphone",
+          "status": "available",
+          "brief": "A centered microphone surrounded by broadcast arcs."
+        },
+        {
+          "slug": "audio-loop",
+          "status": "available",
+          "brief": "An audio waveform enclosed by repeat arrows."
+        },
+        {
+          "slug": "stereo-audio",
+          "status": "available",
+          "brief": "Two independent waveforms representing left and right audio channels."
         }
       ]
     },
